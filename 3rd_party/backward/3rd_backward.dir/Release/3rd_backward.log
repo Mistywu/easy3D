@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/3rd_party/backward/CMakeLists.txt
+  backward.cpp
+e:\workspace\reconstruction\easy3d-main\3rd_party\backward\backward.hpp(3793): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1191): note: 参见“getenv”的声明
+  3rd_backward.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\lib\Release\3rd_backward.lib

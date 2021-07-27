@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindBoost.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
+E:/workspace/reconstruction/Easy3D-main/easy3d/algo/CMakeLists.txt

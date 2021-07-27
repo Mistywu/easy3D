@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\dict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\geom.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\memalloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\mesh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\normal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\priorityq-heap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\priorityq.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\render.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\sweep.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\tess.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\tessmono.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\glutess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\dict-list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\geom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\memalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\normal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\priorityq-heap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\priorityq-sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\priorityq.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\sweep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\tess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\tessmono.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3A600367-FE1B-315F-8EBC-353052051363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3E83A2FA-8FB0-3AB0-830A-E75B3DB82788}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

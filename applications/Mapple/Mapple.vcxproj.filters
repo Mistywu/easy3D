@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\build\applications\Mapple\Mapple_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\main_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\paint_canvas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\paint_canvas_snapshot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\walk_through.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_curvature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_fairing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_from_text.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_hole_filling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_parameterization.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_remeshing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_simplification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_smoothing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_gaussian_noise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_poisson_reconstruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_properties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_point_cloud_normal_estimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_point_cloud_ransac_primitive_extraction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_sampling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_snapshot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_point_cloud_simplification.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_walk_through.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_checker_sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_drawable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_drawable_points.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_drawable_lines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_drawable_triangles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_global_setting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_model_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\tools\tool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\tools\tool_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\tools\tool_segmentation_surface_mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\tools\tool_selection_point_cloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\tools\tool_selection_surface_mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\build\applications\Mapple\Mapple_autogen\3YJK5W5UP7\qrc_Mapple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\main_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\paint_canvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\walk_through.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_curvature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_fairing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_from_text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_hole_filling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_remeshing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_parameterization.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_simplification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_smoothing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_gaussian_noise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_poisson_reconstruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_properties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_point_cloud_normal_estimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_point_cloud_ransac_primitive_extraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_sampling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_snapshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_point_cloud_simplification.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_walk_through.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_checker_sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_drawable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_drawable_points.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_drawable_lines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_drawable_triangles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_global_setting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\tools\canvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\tools\tool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\tools\tool_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\tools\tool_segmentation_surface_mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\tools\tool_selection_point_cloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\tools\tool_selection_surface_mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_model_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\97d2aea60064d295390cb98c33759e78\qrc_Mapple.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\main_window.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_curvature.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_fairing.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_from_text.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_hole_filling.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_parameterization.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_remeshing.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_simplification.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_smoothing.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_gaussian_noise.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_poisson_reconstruction.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_properties.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_point_cloud_normal_estimation.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_point_cloud_ransac_primitive_extraction.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_surface_mesh_sampling.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_snapshot.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_point_cloud_simplification.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\dialogs\dialog_walk_through.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_drawable_points.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_drawable_lines.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_drawable_triangles.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\widgets\widget_global_setting.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\resources\Mapple.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="E:\workspace\reconstruction\Easy3D-main\applications\Mapple\resources\Mapple.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{52CAD2E9-941A-3823-95F1-5D0AA14CD670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3A600367-FE1B-315F-8EBC-353052051363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3E83A2FA-8FB0-3AB0-830A-E75B3DB82788}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

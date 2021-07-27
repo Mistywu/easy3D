@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{590CEC96-142D-3FF2-B67F-43FC5D144D9A}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>3rd_kdtree</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\workspace\reconstruction\Easy3D-main\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">3rd_kdtree.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">3rd_kdtree</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\workspace\reconstruction\Easy3D-main\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">3rd_kdtree.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">3rd_kdtree</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\workspace\reconstruction\Easy3D-main\build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">3rd_kdtree.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">3rd_kdtree</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\workspace\reconstruction\Easy3D-main\build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">3rd_kdtree.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">3rd_kdtree</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;ENV_32_BIT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;ENV_32_BIT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;ENV_32_BIT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;ENV_32_BIT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;ENV_32_BIT;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;ENV_32_BIT;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;ENV_32_BIT;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;ENV_32_BIT;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/workspace/reconstruction/Easy3D-main/3rd_party/kdtree/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/reconstruction/Easy3D-main -BE:/workspace/reconstruction/Easy3D-main/build --check-stamp-file E:/workspace/reconstruction/Easy3D-main/build/3rd_party/kdtree/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\workspace\reconstruction\Easy3D-main\build\3rd_party\kdtree\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/workspace/reconstruction/Easy3D-main/3rd_party/kdtree/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/reconstruction/Easy3D-main -BE:/workspace/reconstruction/Easy3D-main/build --check-stamp-file E:/workspace/reconstruction/Easy3D-main/build/3rd_party/kdtree/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\workspace\reconstruction\Easy3D-main\build\3rd_party\kdtree\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/workspace/reconstruction/Easy3D-main/3rd_party/kdtree/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/reconstruction/Easy3D-main -BE:/workspace/reconstruction/Easy3D-main/build --check-stamp-file E:/workspace/reconstruction/Easy3D-main/build/3rd_party/kdtree/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\workspace\reconstruction\Easy3D-main\build\3rd_party\kdtree\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/workspace/reconstruction/Easy3D-main/3rd_party/kdtree/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/reconstruction/Easy3D-main -BE:/workspace/reconstruction/Easy3D-main/build --check-stamp-file E:/workspace/reconstruction/Easy3D-main/build/3rd_party/kdtree/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\workspace\reconstruction\Easy3D-main\build\3rd_party\kdtree\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\ANN.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\bd_fix_rad_search.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\bd_pr_search.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\bd_search.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\bd_tree.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\brute.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\kd_dump.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\kd_fix_rad_search.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\kd_pr_search.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\kd_search.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\kd_split.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\kd_tree.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\kd_util.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\perf.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ETH_Kd_Tree\kdTree.cpp" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\ANN.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\ANNperf.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\ANNx.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\bd_tree.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\kd_fix_rad_search.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\kd_pr_search.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\kd_search.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\kd_split.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\kd_tree.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\kd_util.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\pr_queue.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ANN\pr_queue_k.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ETH_Kd_Tree\kdTree.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ETH_Kd_Tree\PriorityQueue.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ETH_Kd_Tree\QueryGrid.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ETH_Kd_Tree\vector2D.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\ETH_Kd_Tree\vector3D.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\config.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\defines.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\flann.hpp" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\general.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\algorithms\all_indices.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\algorithms\autotuned_index.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\algorithms\center_chooser.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\algorithms\composite_index.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\algorithms\dist.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\algorithms\hierarchical_clustering_index.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\algorithms\kdtree_index.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\algorithms\kdtree_single_index.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\algorithms\kmeans_index.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\algorithms\linear_index.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\algorithms\lsh_index.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\algorithms\nn_index.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\nn\ground_truth.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\nn\index_testing.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\util\allocator.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\util\any.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\util\dynamic_bitset.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\util\heap.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\util\logger.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\util\lsh_table.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\util\matrix.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\util\params.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\util\random.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\util\result_set.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\util\sampling.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\util\saving.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\util\serialization.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\FLANN\util\timer.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\3rd_party\kdtree\nanoflann\nanoflann.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\ZERO_CHECK.vcxproj">
+      <Project>{14EEAA4B-B71A-3483-B243-FA07BA8DB49A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

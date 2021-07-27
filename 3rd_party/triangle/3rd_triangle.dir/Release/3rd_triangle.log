@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/3rd_party/triangle/CMakeLists.txt
+  triangle.c
+E:\workspace\reconstruction\Easy3D-main\3rd_party\triangle\triangle.c(6951): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  3rd_triangle.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\lib\Release\3rd_triangle.lib

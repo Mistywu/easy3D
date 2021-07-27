@@ -1,0 +1,17 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/tutorials/Tutorial_403_PointSelection/CMakeLists.txt
+  main.cpp
+  Stack trace not available for this compiler
+  viewer.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_403_PointSelection\viewer.cpp(61): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_403_PointSelection\viewer.cpp(95): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+  正在生成代码...
+  Tutorial_403_PointSelection.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\bin\Release\Tutorial_403_PointSelection.exe

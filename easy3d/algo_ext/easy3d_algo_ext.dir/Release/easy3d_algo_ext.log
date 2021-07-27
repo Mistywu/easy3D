@@ -1,0 +1,66 @@
+﻿  surfacer.cpp
+  Stack trace not available for this compiler
+C:\dev\CGAL-5.2.3\include\CGAL/Mpzf.h(65): warning C4163: “_BitScanForward64”: 不可用作内部函数
+C:\dev\CGAL-5.2.3\include\CGAL/Mpzf.h(66): warning C4163: “_BitScanReverse64”: 不可用作内部函数
+C:\dev\CGAL-5.2.3\include\CGAL/Mpzf.h(198): error C3861: “_BitScanForward64”: 找不到标识符
+C:\dev\CGAL-5.2.3\include\CGAL/Mpzf.h(210): error C3861: “_BitScanReverse64”: 找不到标识符
+C:\dev\CGAL-5.2.3\include\CGAL/boost/graph/Euler_operations.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\dev\CGAL-5.2.3\include\CGAL/boost/graph/Euler_operations.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo_ext\surfacer.cpp(80): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo_ext\surfacer.cpp(79): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo_ext\surfacer.cpp(78): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo_ext\surfacer.cpp(128): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo_ext\surfacer.cpp(127): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo_ext\surfacer.cpp(126): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo_ext\surfacer.cpp(455): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo_ext\surfacer.cpp(454): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo_ext\surfacer.cpp(453): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+  self_intersection.cpp
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo_ext\self_intersection.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\dev\CGAL-5.2.3\include\CGAL/Mpzf.h(65): warning C4163: “_BitScanForward64”: 不可用作内部函数
+C:\dev\CGAL-5.2.3\include\CGAL/Mpzf.h(66): warning C4163: “_BitScanReverse64”: 不可用作内部函数
+C:\dev\CGAL-5.2.3\include\CGAL/Mpzf.h(198): error C3861: “_BitScanForward64”: 找不到标识符
+C:\dev\CGAL-5.2.3\include\CGAL/Mpzf.h(210): error C3861: “_BitScanReverse64”: 找不到标识符
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo_ext\self_intersection.cpp(787): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+  正在生成代码...

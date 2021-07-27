@@ -1,0 +1,158 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/3rd_party/ransac/CMakeLists.txt
+  Bitmap.cpp
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Bitmap.cpp(1014): warning C4838: 从“int”转换到“unsigned int”需要收缩转换
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Bitmap.cpp(1027): warning C4838: 从“int”转换到“unsigned int”需要收缩转换
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Bitmap.cpp(1043): warning C4838: 从“int”转换到“unsigned int”需要收缩转换
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Bitmap.cpp(1059): warning C4838: 从“int”转换到“unsigned int”需要收缩转换
+  BitmapPrimitiveShape.cpp
+  Candidate.cpp
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Candidate.cpp(138): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Candidate.cpp(144): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Candidate.cpp(163): warning C4018: “<”: 有符号/无符号不匹配
+  Cone.cpp
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Cone.cpp(129): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Cone.cpp(130): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Cone.cpp(131): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Cone.cpp(240): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Cone.cpp(241): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Cone.cpp(242): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  ConePrimitiveShape.cpp
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\ConePrimitiveShape.cpp(345): warning C4244: “=”: 从“float”转换到“size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\ConePrimitiveShape.cpp(346): warning C4244: “=”: 从“float”转换到“size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\ConePrimitiveShape.cpp(389): warning C4244: “=”: 从“float”转换到“size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\ConePrimitiveShape.cpp(398): warning C4244: “=”: 从“float”转换到“_Ty1”，可能丢失数据
+          with
+          [
+              _Ty1=int
+          ]
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\ConePrimitiveShape.cpp(399): warning C4244: “=”: 从“float”转换到“_Ty2”，可能丢失数据
+          with
+          [
+              _Ty2=int
+          ]
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\ConePrimitiveShape.cpp(414): warning C4244: “初始化”: 从“float”转换到“size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\ConePrimitiveShape.cpp(445): warning C4244: “初始化”: 从“float”转换到“size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\ConePrimitiveShape.cpp(456): warning C4244: “初始化”: 从“float”转换到“size_t”，可能丢失数据
+  ConePrimitiveShapeConstructor.cpp
+  Cylinder.cpp
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Cylinder.cpp(142): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+  CylinderPrimitiveShape.cpp
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\CylinderPrimitiveShape.cpp(343): warning C4244: “=”: 从“double”转换到“_Ty2”，可能丢失数据
+          with
+          [
+              _Ty2=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\CylinderPrimitiveShape.cpp(359): warning C4244: “=”: 从“float”转换到“_Ty1”，可能丢失数据
+          with
+          [
+              _Ty1=int
+          ]
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\CylinderPrimitiveShape.cpp(360): warning C4244: “=”: 从“float”转换到“_Ty2”，可能丢失数据
+          with
+          [
+              _Ty2=int
+          ]
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\CylinderPrimitiveShape.cpp(380): warning C4018: “<”: 有符号/无符号不匹配
+  CylinderPrimitiveShapeConstructor.cpp
+  LowStretchSphereParametrization.cpp
+  LowStretchTorusParametrization.cpp
+  Plane.cpp
+  PlanePrimitiveShape.cpp
+  PlanePrimitiveShapeConstructor.cpp
+  PointCloud.cpp
+  RansacShapeDetector.cpp
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(578): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(577): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(581): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(580): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(579): warning C4244: “参数”: 从“unsigned int”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(590): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(674): warning C4244: “=”: 从“float”转换到“size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(726): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(857): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(856): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(856): warning C4244: “参数”: 从“unsigned int”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(227): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+  E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(591): note: 参见对正在编译的函数 模板 实例化“bool RansacShapeDetector::FindBestCandidate<ScorePrimitiveShapeVisitor<FlatNormalThreshPointCompatibilityFunc,ImmediateOctreeType>>(RansacShapeDetector::CandidatesType &,const MiscLib::Vector<ImmediateOctreeType *,MiscLib::AlignedAllocator<T,4>> &,const PointCloud &,ScoreVisitorT &,size_t,size_t,size_t,size_t,float,float *,float *) const”的引用
+          with
+          [
+              T=ImmediateOctreeType *,
+              ScoreVisitorT=ScorePrimitiveShapeVisitor<FlatNormalThreshPointCompatibilityFunc,ImmediateOctreeType>
+          ]
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(273): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(282): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(306): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(314): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(327): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(332): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(365): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(377): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(391): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(394): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(418): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(441): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+e:\workspace\reconstruction\easy3d-main\3rd_party\ransac\Candidate.h(205): warning C4244: “=”: 从“size_t”转换到“float”，可能丢失数据
+  E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(164): note: 参见对正在编译的函数 模板 实例化“bool Candidate::ImproveBounds<ScoreVisitorT>(const MiscLib::Vector<ImmediateOctreeType *,MiscLib::AlignedAllocator<T,4>> &,const PointCloud &,ScoreVisitorT &,size_t,float,size_t,size_t)”的引用
+          with
+          [
+              ScoreVisitorT=ScorePrimitiveShapeVisitor<FlatNormalThreshPointCompatibilityFunc,ImmediateOctreeType>,
+              T=ImmediateOctreeType *
+          ]
+  E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\RansacShapeDetector.cpp(574): note: 参见对正在编译的函数 模板 实例化“void RansacShapeDetector::GenerateCandidates<ScorePrimitiveShapeVisitor<FlatNormalThreshPointCompatibilityFunc,ImmediateOctreeType>>(const IndexedOctreeType &,const MiscLib::Vector<ImmediateOctreeType *,MiscLib::AlignedAllocator<T,4>> &,const PointCloud &,ScoreVisitorT &,size_t,size_t,const MiscLib::Vector<double,MiscLib::AlignedAllocator<double,4>> &,size_t *,MiscLib::Vector<std::pair<float,size_t>,MiscLib::AlignedAllocator<std::pair<float,size_t>,4>> *,float *,RansacShapeDetector::CandidatesType *) const”的引用
+          with
+          [
+              T=ImmediateOctreeType *,
+              ScoreVisitorT=ScorePrimitiveShapeVisitor<FlatNormalThreshPointCompatibilityFunc,ImmediateOctreeType>
+          ]
+  SimpleTorusParametrization.cpp
+  solve.cpp
+  Sphere.cpp
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Sphere.cpp(185): warning C4244: “参数”: 从“size_t”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Sphere.cpp(213): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Sphere.cpp(214): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Sphere.cpp(215): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Sphere.cpp(216): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  SpherePrimitiveShape.cpp
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\SpherePrimitiveShape.cpp(452): warning C4244: “=”: 从“float”转换到“size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\SpherePrimitiveShape.cpp(453): warning C4244: “=”: 从“float”转换到“size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\SpherePrimitiveShape.cpp(461): warning C4244: “=”: 从“float”转换到“_Ty1”，可能丢失数据
+          with
+          [
+              _Ty1=int
+          ]
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\SpherePrimitiveShape.cpp(462): warning C4244: “=”: 从“float”转换到“_Ty2”，可能丢失数据
+          with
+          [
+              _Ty2=int
+          ]
+  正在生成代码...
+  正在编译...
+  SpherePrimitiveShapeConstructor.cpp
+  Torus.cpp
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Torus.cpp(113): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Torus.cpp(114): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Torus.cpp(116): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Torus.cpp(117): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Torus.cpp(236): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Torus.cpp(237): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Torus.cpp(239): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Torus.cpp(240): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\Torus.cpp(597): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  TorusPrimitiveShape.cpp
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\TorusPrimitiveShape.cpp(371): warning C4244: “=”: 从“float”转换到“size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\TorusPrimitiveShape.cpp(372): warning C4244: “=”: 从“float”转换到“size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\TorusPrimitiveShape.cpp(380): warning C4244: “=”: 从“float”转换到“_Ty1”，可能丢失数据
+          with
+          [
+              _Ty1=int
+          ]
+E:\workspace\reconstruction\Easy3D-main\3rd_party\ransac\TorusPrimitiveShape.cpp(381): warning C4244: “=”: 从“float”转换到“_Ty2”，可能丢失数据
+          with
+          [
+              _Ty2=int
+          ]
+  TorusPrimitiveShapeConstructor.cpp
+  Random.cpp
+  RefCount.cpp
+  正在生成代码...
+  3rd_ransac.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\lib\Release\3rd_ransac.lib

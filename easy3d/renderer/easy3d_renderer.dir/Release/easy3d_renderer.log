@@ -1,0 +1,489 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/easy3d/renderer/CMakeLists.txt
+  ambient_occlusion.cpp
+  Stack trace not available for this compiler
+  average_color_blending.cpp
+  Stack trace not available for this compiler
+  camera.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\camera.cpp(694): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  clipping_plane.cpp
+  Stack trace not available for this compiler
+  constraint.cpp
+  Stack trace not available for this compiler
+  drawable.cpp
+  Stack trace not available for this compiler
+  drawable_lines.cpp
+  Stack trace not available for this compiler
+  drawable_points.cpp
+  Stack trace not available for this compiler
+  drawable_triangles.cpp
+  Stack trace not available for this compiler
+  dual_depth_peeling.cpp
+  Stack trace not available for this compiler
+  eye_dome_lighting.cpp
+  Stack trace not available for this compiler
+  frame.cpp
+  Stack trace not available for this compiler
+  framebuffer_object.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\framebuffer_object.cpp(289): warning C4018: “>=”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\framebuffer_object.cpp(370): warning C4018: “>=”: 有符号/无符号不匹配
+  frustum.cpp
+  Stack trace not available for this compiler
+  key_frame_interpolator.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\key_frame_interpolator.cpp(217): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\key_frame_interpolator.cpp(395): warning C4244: “初始化”: 从“float”转换到“size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\key_frame_interpolator.cpp(395): warning C4244: “初始化”: 从“float”转换到“const size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\key_frame_interpolator.cpp(418): warning C4244: “初始化”: 从“float”转换到“size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\key_frame_interpolator.cpp(418): warning C4244: “初始化”: 从“float”转换到“const size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\key_frame_interpolator.cpp(426): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\key_frame_interpolator.cpp(447): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\key_frame_interpolator.cpp(461): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\key_frame_interpolator.cpp(479): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/quat.h(664): warning C4244: “=”: 从“double”转换到“FT”，可能丢失数据
+          with
+          [
+              FT=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d/core/quat.h(649): note: 编译 类 模板 成员函数 "easy3d::Quat<float> easy3d::Quat<float>::slerp(const easy3d::Quat<float> &,const easy3d::Quat<float> &,FT,bool)" 时
+          with
+          [
+              FT=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\key_frame_interpolator.cpp(399): note: 参见对正在编译的函数 模板 实例化“easy3d::Quat<float> easy3d::Quat<float>::slerp(const easy3d::Quat<float> &,const easy3d::Quat<float> &,FT,bool)”的引用
+          with
+          [
+              FT=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d/renderer/frame.h(395): note: 参见对正在编译的 类 模板 实例化 "easy3d::Quat<float>" 的引用
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(210): warning C4244: “=”: 从“double”转换到“FT”，可能丢失数据
+          with
+          [
+              FT=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(184): note: 编译 类 模板 成员函数 "void easy3d::SplineInterpolation<float>::set_data(const std::vector<float,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &,bool)" 时
+          with
+          [
+              _Ty=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_curve_interpolation.h(191): note: 参见对正在编译的函数 模板 实例化“void easy3d::SplineInterpolation<float>::set_data(const std::vector<float,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &,bool)”的引用
+          with
+          [
+              _Ty=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_curve_interpolation.h(147): note: 编译 类 模板 成员函数 "void easy3d::SplineCurveInterpolation<easy3d::vec3>::set_points(const std::vector<float,std::allocator<_Ty>> &,const std::vector<easy3d::vec3,std::allocator<easy3d::Vec<3,float>>> &,bool)" 时
+          with
+          [
+              _Ty=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\key_frame_interpolator.cpp(440): note: 参见对正在编译的函数 模板 实例化“void easy3d::SplineCurveInterpolation<easy3d::vec3>::set_points(const std::vector<float,std::allocator<_Ty>> &,const std::vector<easy3d::vec3,std::allocator<easy3d::Vec<3,float>>> &,bool)”的引用
+          with
+          [
+              _Ty=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\key_frame_interpolator.cpp(438): note: 参见对正在编译的 类 模板 实例化 "easy3d::SplineCurveInterpolation<easy3d::vec3>" 的引用
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(211): warning C4244: “=”: 从“double”转换到“FT”，可能丢失数据
+          with
+          [
+              FT=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(212): warning C4244: “=”: 从“double”转换到“FT”，可能丢失数据
+          with
+          [
+              FT=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(224): warning C4244: “=”: 从“double”转换到“FT”，可能丢失数据
+          with
+          [
+              FT=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(225): warning C4244: “=”: 从“double”转换到“FT”，可能丢失数据
+          with
+          [
+              FT=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(226): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(239): warning C4244: “=”: 从“double”转换到“FT”，可能丢失数据
+          with
+          [
+              FT=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(240): warning C4244: “=”: 从“double”转换到“FT”，可能丢失数据
+          with
+          [
+              FT=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(241): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(253): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(255): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(269): warning C4244: “=”: 从“double”转换到“FT”，可能丢失数据
+          with
+          [
+              FT=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(277): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(443): warning C4244: “=”: 从“double”转换到“FT”，可能丢失数据
+          with
+          [
+              FT=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(434): note: 编译 类 模板 成员函数 "void easy3d::BandMatrix<FT>::lu_decompose(void)" 时
+          with
+          [
+              FT=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(505): note: 参见对正在编译的函数 模板 实例化“void easy3d::BandMatrix<FT>::lu_decompose(void)”的引用
+          with
+          [
+              FT=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(368): note: 编译 类 模板 成员函数 "easy3d::BandMatrix<FT>::BandMatrix(int,int,int)" 时
+          with
+          [
+              FT=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(207): note: 参见对正在编译的函数 模板 实例化“easy3d::BandMatrix<FT>::BandMatrix(int,int,int)”的引用
+          with
+          [
+              FT=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(207): note: 参见对正在编译的 类 模板 实例化 "easy3d::BandMatrix<FT>" 的引用
+          with
+          [
+              FT=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_interpolation.h(184): note: 编译 类 模板 成员函数 "void easy3d::SplineInterpolation<float>::set_data(const std::vector<float,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &,bool)" 时
+          with
+          [
+              _Ty=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d/core/spline_curve_interpolation.h(191): note: 参见对正在编译的函数 模板 实例化“void easy3d::SplineInterpolation<float>::set_data(const std::vector<float,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &,bool)”的引用
+          with
+          [
+              _Ty=float
+          ]
+  manipulator.cpp
+  Stack trace not available for this compiler
+  manipulated_camera_frame.cpp
+  Stack trace not available for this compiler
+  manipulated_frame.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\manipulated_frame.cpp(139): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\manipulated_frame.cpp(161): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\manipulated_frame.cpp(165): warning C4244: “参数”: 从“const float”转换到“int”，可能丢失数据
+  opengl_error.cpp
+  Stack trace not available for this compiler
+  opengl_info.cpp
+  Stack trace not available for this compiler
+  正在生成代码...
+  正在编译...
+  opengl_timer.cpp
+  Stack trace not available for this compiler
+  shapes.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shapes.cpp(586): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shapes.cpp(594): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shapes.cpp(758): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shapes.cpp(758): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shapes.cpp(956): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shapes.cpp(959): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shapes.cpp(963): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shapes.cpp(966): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shapes.cpp(991): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shapes.cpp(991): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shapes.cpp(1058): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shapes.cpp(1058): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d/algo/tessellator.h(101): warning C4018: “<”: 有符号/无符号不匹配
+  E:\workspace\reconstruction\Easy3D-main\easy3d/algo/tessellator.h(64): note: 参见对正在编译的函数 模板 实例化“void easy3d::Tessellator::Vertex::append<easy3d::vec3>(const Vec &)”的引用
+          with
+          [
+              Vec=easy3d::vec3
+          ]
+  read_pixel.cpp
+  Stack trace not available for this compiler
+  buffers.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d/algo/tessellator.h(101): warning C4018: “<”: 有符号/无符号不匹配
+  E:\workspace\reconstruction\Easy3D-main\easy3d/algo/tessellator.h(64): note: 参见对正在编译的函数 模板 实例化“void easy3d::Tessellator::Vertex::append<easy3d::vec3>(const Vec &)”的引用
+          with
+          [
+              Vec=easy3d::vec3
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(234): warning C4244: “初始化”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(2160): note: 参见对正在编译的函数 模板 实例化“void easy3d::buffers::details::update_scalar_on_faces<double>(easy3d::SurfaceMesh *,easy3d::TrianglesDrawable *,easy3d::SurfaceMesh::FaceProperty<double>)”的引用
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(234): warning C4244: “初始化”: 从“_Ty”转换到“const float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(299): warning C4244: “初始化”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(364): warning C4244: “初始化”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(2191): note: 参见对正在编译的函数 模板 实例化“void easy3d::buffers::details::update_scalar_on_vertices<double>(easy3d::SurfaceMesh *,easy3d::TrianglesDrawable *,easy3d::SurfaceMesh::VertexProperty<double>)”的引用
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(364): warning C4244: “初始化”: 从“_Ty”转换到“const float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(430): warning C4244: “初始化”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(838): warning C4244: “初始化”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(2341): note: 参见对正在编译的函数 模板 实例化“void easy3d::buffers::details::update_scalar_on_faces<double>(easy3d::PolyMesh *,easy3d::TrianglesDrawable *,easy3d::PolyMesh::FaceProperty<double>,bool)”的引用
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(770): warning C4244: “初始化”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(2372): note: 参见对正在编译的函数 模板 实例化“void easy3d::buffers::details::update_scalar_on_vertices<double>(easy3d::PolyMesh *,easy3d::TrianglesDrawable *,easy3d::PolyMesh::VertexProperty<double>,bool)”的引用
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(65): warning C4244: “初始化”: 从“float”转换到“size_t”，可能丢失数据
+  E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(226): note: 参见对正在编译的函数 模板 实例化“void easy3d::buffers::details::clamp_scalar_field<float>(const std::vector<float,std::allocator<_Ty>> &,float &,float &,float,float)”的引用
+          with
+          [
+              _Ty=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(2157): note: 参见对正在编译的函数 模板 实例化“void easy3d::buffers::details::update_scalar_on_faces<float>(easy3d::SurfaceMesh *,easy3d::TrianglesDrawable *,easy3d::SurfaceMesh::FaceProperty<float>)”的引用
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(65): warning C4244: “初始化”: 从“float”转换到“const size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(66): warning C4244: “初始化”: 从“float”转换到“size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(66): warning C4244: “初始化”: 从“float”转换到“const size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(68): warning C4244: “=”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(69): warning C4244: “=”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(71): warning C4244: “=”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(72): warning C4244: “=”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(68): warning C4244: “=”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(69): warning C4244: “=”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(71): warning C4244: “=”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(72): warning C4244: “=”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(68): warning C4244: “=”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=std::_Vbase
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(69): warning C4244: “=”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=std::_Vbase
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(71): warning C4244: “=”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=std::_Vbase
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(72): warning C4244: “=”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=std::_Vbase
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(114): warning C4244: “初始化”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(1752): note: 参见对正在编译的函数 模板 实例化“void easy3d::buffers::details::update_scalar_on_vertices<MODEL,double>(MODEL *,easy3d::PointsDrawable *,easy3d::PointCloud::VertexProperty<double>)”的引用
+          with
+          [
+              MODEL=easy3d::PointCloud
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(1902): note: 参见对正在编译的函数 模板 实例化“void easy3d::buffers::details::update_scalar_on_vertices<MODEL,easy3d::PointsDrawable>(MODEL *,DRAWABLE *,const std::string &)”的引用
+          with
+          [
+              MODEL=easy3d::PointCloud,
+              DRAWABLE=easy3d::PointsDrawable
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(1921): note: 参见对正在编译的函数 模板 实例化“void easy3d::buffers::details::update<easy3d::PointCloud>(MODEL *,easy3d::PointsDrawable *)”的引用
+          with
+          [
+              MODEL=easy3d::PointCloud
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(188): warning C4244: “初始化”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(1752): note: 参见对正在编译的函数 模板 实例化“void easy3d::buffers::details::update_scalar_on_vertices<MODEL,double>(MODEL *,easy3d::LinesDrawable *,easy3d::SurfaceMesh::VertexProperty<double>)”的引用
+          with
+          [
+              MODEL=easy3d::SurfaceMesh
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(1862): note: 参见对正在编译的函数 模板 实例化“void easy3d::buffers::details::update_scalar_on_vertices<MODEL,easy3d::LinesDrawable>(MODEL *,DRAWABLE *,const std::string &)”的引用
+          with
+          [
+              MODEL=easy3d::SurfaceMesh,
+              DRAWABLE=easy3d::LinesDrawable
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(1972): note: 参见对正在编译的函数 模板 实例化“void easy3d::buffers::details::update<easy3d::SurfaceMesh>(MODEL *,easy3d::LinesDrawable *)”的引用
+          with
+          [
+              MODEL=easy3d::SurfaceMesh
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(154): warning C4244: “初始化”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(1785): note: 参见对正在编译的函数 模板 实例化“void easy3d::buffers::details::update_scalar_on_edges<MODEL,double>(MODEL *,easy3d::LinesDrawable *,easy3d::SurfaceMesh::EdgeProperty<double>)”的引用
+          with
+          [
+              MODEL=easy3d::SurfaceMesh
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp(1859): note: 参见对正在编译的函数 模板 实例化“void easy3d::buffers::details::update_scalar_on_edges<MODEL>(MODEL *,easy3d::LinesDrawable *,const std::string &)”的引用
+          with
+          [
+              MODEL=easy3d::SurfaceMesh
+          ]
+  renderer.cpp
+  Stack trace not available for this compiler
+  setting.cpp
+  Stack trace not available for this compiler
+  shader_manager.cpp
+  Stack trace not available for this compiler
+  shader_program.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shader_program.cpp(146): warning C4244: “参数”: 从“std::streamoff”转换到“const unsigned int”，可能丢失数据
+  shadow.cpp
+  Stack trace not available for this compiler
+  soft_shadow.cpp
+  Stack trace not available for this compiler
+  state.cpp
+  Stack trace not available for this compiler
+  texture.cpp
+  Stack trace not available for this compiler
+  texture_manager.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\texture_manager.cpp(116): warning C4244: “=”: 从“T”转换到“_Ty”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              _Ty=unsigned char
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\texture_manager.cpp(117): warning C4244: “=”: 从“T”转换到“_Ty”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              _Ty=unsigned char
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\texture_manager.cpp(118): warning C4244: “=”: 从“T”转换到“_Ty”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+          and
+          [
+              _Ty=unsigned char
+          ]
+  text_renderer.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\text_renderer.cpp(497): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\text_renderer.cpp(498): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\text_renderer.cpp(500): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\text_renderer.cpp(501): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\text_renderer.cpp(825): warning C4018: “>=”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\text_renderer.cpp(941): warning C4018: “>=”: 有符号/无符号不匹配
+  transform.cpp
+  Stack trace not available for this compiler
+  transform_decompose.cpp
+  Stack trace not available for this compiler
+  vertex_array_object.cpp
+  Stack trace not available for this compiler
+  正在生成代码...
+  easy3d_renderer.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\lib\Release\easy3d_renderer.lib

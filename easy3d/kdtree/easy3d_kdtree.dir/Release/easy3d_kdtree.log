@@ -1,0 +1,36 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/easy3d/kdtree/CMakeLists.txt
+  kdtree_search.cpp
+  Stack trace not available for this compiler
+  kdtree_search_ann.cpp
+  Stack trace not available for this compiler
+  kdtree_search_eth.cpp
+  Stack trace not available for this compiler
+  kdtree_search_flann.cpp
+  Stack trace not available for this compiler
+e:\workspace\reconstruction\easy3d-main\3rd_party\kdtree\flann\util\serialization.h(363): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+e:\workspace\reconstruction\easy3d-main\3rd_party\kdtree\flann\util\serialization.h(407): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+e:\workspace\reconstruction\easy3d-main\3rd_party\kdtree\flann\util/saving.h(65): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+e:\workspace\reconstruction\easy3d-main\3rd_party\kdtree\flann\util/saving.h(67): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+e:\workspace\reconstruction\easy3d-main\3rd_party\kdtree\flann\algorithms\../util/logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party/kdtree/FLANN/flann.hpp(373): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+  E:\workspace\reconstruction\Easy3D-main\3rd_party/kdtree/FLANN/flann.hpp(372): note: 编译 类 模板 成员函数 "flann::NNIndex<Distance> *flann::Index<Distance>::load_saved_index(const flann::Matrix<float> &,const std::string &,Distance)" 时
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  E:\workspace\reconstruction\Easy3D-main\3rd_party/kdtree/FLANN/flann.hpp(108): note: 参见对正在编译的函数 模板 实例化“flann::NNIndex<Distance> *flann::Index<Distance>::load_saved_index(const flann::Matrix<float> &,const std::string &,Distance)”的引用
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\kdtree\kdtree_search_flann.cpp(46): note: 参见对正在编译的 类 模板 实例化 "flann::Index<flann::L2<float>>" 的引用
+  kdtree_search_nanoflann.cpp
+  Stack trace not available for this compiler
+  正在生成代码...
+  easy3d_kdtree.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\lib\Release\easy3d_kdtree.lib

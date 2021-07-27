@@ -1,0 +1,31 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/easy3d/gui/CMakeLists.txt
+  picker.cpp
+  Stack trace not available for this compiler
+  picker_model.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\gui\picker_model.cpp(103): warning C4018: “<”: 有符号/无符号不匹配
+  picker_point_cloud.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\gui\picker_point_cloud.cpp(104): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\easy3d\gui\picker_point_cloud.cpp(114): warning C4244: “参数”: 从“int”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\gui\picker_point_cloud.cpp(122): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\VisualStudio2017\Community\VC\Tools\MSVC\14.16.27023\include\xutility(3583): warning C4805: “==”: 在操作中将类型“bool”与类型“const _Ty”混合不安全
+          with
+          [
+              _Ty=int
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\gui\picker_point_cloud.cpp(295): note: 参见对正在编译的函数 模板 实例化“int std::count<std::_Vb_iterator<std::_Wrap_alloc<std::allocator<std::_Vbase>>>,int>(const _InIt,const _InIt,const _Ty &)”的引用
+          with
+          [
+              _InIt=std::_Vb_iterator<std::_Wrap_alloc<std::allocator<std::_Vbase>>>,
+              _Ty=int
+          ]
+  picker_surface_mesh.cpp
+  Stack trace not available for this compiler
+  正在生成代码...
+e:\workspace\reconstruction\easy3d-main\easy3d\gui\picker_point_cloud.cpp(83): warning C4715: “easy3d::PointCloudPicker::pick_vertex”: 不是所有的控件路径都返回值
+  easy3d_gui.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\lib\Release\easy3d_gui.lib

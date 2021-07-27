@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_111_Graph_IO\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_111_Graph_IO\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3E83A2FA-8FB0-3AB0-830A-E75B3DB82788}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

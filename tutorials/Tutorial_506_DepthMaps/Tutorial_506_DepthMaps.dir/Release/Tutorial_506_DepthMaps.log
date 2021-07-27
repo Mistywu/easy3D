@@ -1,0 +1,9 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/tutorials/Tutorial_506_DepthMaps/CMakeLists.txt
+  main.cpp
+  Stack trace not available for this compiler
+  viewer.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_506_DepthMaps\viewer.cpp(104): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_506_DepthMaps\viewer.cpp(105): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+  正在生成代码...
+  Tutorial_506_DepthMaps.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\bin\Release\Tutorial_506_DepthMaps.exe

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_205_RealCamera\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_205_RealCamera\viewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_205_RealCamera\read_bundler_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_205_RealCamera\viewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_205_RealCamera\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3A600367-FE1B-315F-8EBC-353052051363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3E83A2FA-8FB0-3AB0-830A-E75B3DB82788}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

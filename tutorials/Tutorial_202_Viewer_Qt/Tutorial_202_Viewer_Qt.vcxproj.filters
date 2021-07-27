@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_202_Viewer_Qt\Tutorial_202_Viewer_Qt_autogen\mocs_compilation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_202_Viewer_Qt\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_202_Viewer_Qt\main_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_202_Viewer_Qt\viewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_202_Viewer_Qt\Tutorial_202_Viewer_Qt_autogen\EWIEGA46WW\qrc_viewer_qt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_202_Viewer_Qt\main_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_202_Viewer_Qt\viewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\3de02018f94deb5840b371546a8bb71a\qrc_viewer_qt.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_202_Viewer_Qt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_202_Viewer_Qt\main_window.ui" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_202_Viewer_Qt\viewer_qt.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{52CAD2E9-941A-3823-95F1-5D0AA14CD670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3A600367-FE1B-315F-8EBC-353052051363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3E83A2FA-8FB0-3AB0-830A-E75B3DB82788}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

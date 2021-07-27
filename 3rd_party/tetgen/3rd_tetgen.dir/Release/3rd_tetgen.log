@@ -1,0 +1,357 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/3rd_party/tetgen/CMakeLists.txt
+  tetgen.cxx
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(201): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(202): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(205): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(278): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(279): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(281): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(360): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(361): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(363): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(456): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(457): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(459): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(563): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(564): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(577): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(578): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(566): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(624): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(625): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(626): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(746): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(747): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(748): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(814): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(815): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(818): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(828): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(842): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(867): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(868): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(869): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(870): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(875): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(878): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(1284): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(1277): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(338): note: 参见“strncpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(1287): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(1305): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(1445): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(1438): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(338): note: 参见“strncpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(1448): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(1672): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(1665): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(338): note: 参见“strncpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(1675): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(1850): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(1843): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(338): note: 参见“strncpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(1853): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2209): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2219): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2229): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2202): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(338): note: 参见“strncpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2211): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2227): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2233): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2296): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2506): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2508): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2532): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2534): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2558): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2560): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2605): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2607): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2634): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2636): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2662): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2664): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2697): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2699): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2795): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(2797): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(3089): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(3090): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(3095): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(3096): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(3329): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(3640): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(3756): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(3777): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(3779): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(3780): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(3788): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(3789): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(3791): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(3792): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(3100): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(338): note: 参见“strncpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(3624): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(338): note: 参见“strncpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(3785): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(6629): warning C4101: “theta”: 未引用的局部变量
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(6630): warning C4101: “ori”: 未引用的局部变量
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(6628): warning C4101: “np”: 未引用的局部变量
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(11049): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(14103): warning C4101: “ang_tol”: 未引用的局部变量
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(23749): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(26267): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(27006): warning C4244: “*=”: 从“double”转换到“long”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(27728): warning C4244: “*=”: 从“double”转换到“long”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(28734): warning C4244: “*=”: 从“double”转换到“long”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(29177): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(29184): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(32992): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(32998): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(33505): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(33506): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(33525): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(33708): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(33709): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(33755): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(33756): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(33721): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(33768): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(33845): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(33846): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(33862): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34005): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34006): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34179): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34180): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34021): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34190): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34226): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34227): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34239): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34330): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34331): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34343): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34517): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34518): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34710): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34711): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34737): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34738): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34545): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34721): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34748): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34795): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34796): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34808): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34937): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34938): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(34952): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35047): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35048): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35149): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35150): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35251): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35252): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35365): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35366): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35097): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35162): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35264): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35378): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35502): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35504): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35506): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35508): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35509): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35510): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35515): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35605): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35607): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35609): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35611): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35701): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35712): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35627): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35825): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35826): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35828): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35823): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35834): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35934): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35935): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35937): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35932): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: 参见“sprintf”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(35943): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(36042): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(36045): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(36049): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(36051): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: 参见“strcpy”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(36054): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: 参见“strcat”的声明
+E:\workspace\reconstruction\Easy3D-main\3rd_party\tetgen\tetgen.cxx(36055): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+  predicates.cxx
+  正在生成代码...
+  3rd_tetgen.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\lib\Release\3rd_tetgen.lib

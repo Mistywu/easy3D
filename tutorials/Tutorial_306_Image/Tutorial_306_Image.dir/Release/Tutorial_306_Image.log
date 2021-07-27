@@ -1,0 +1,12 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/tutorials/Tutorial_306_Image/CMakeLists.txt
+  main.cpp
+  Stack trace not available for this compiler
+  viewer.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_306_Image\viewer.cpp(150): warning C4244: “参数”: 从“int”转换到“FT”，可能丢失数据
+          with
+          [
+              FT=float
+          ]
+  正在生成代码...
+  Tutorial_306_Image.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\bin\Release\Tutorial_306_Image.exe

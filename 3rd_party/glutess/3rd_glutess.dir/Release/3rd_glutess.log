@@ -1,0 +1,23 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/3rd_party/glutess/CMakeLists.txt
+  dict.c
+  geom.c
+  memalloc.c
+  mesh.c
+  normal.c
+  priorityq-heap.c
+  priorityq.c
+  render.c
+  sweep.c
+E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\sweep.c(466): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\3rd_party\glutess\source\sweep.c(467): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  tess.c
+  tessmono.c
+  正在生成代码...
+priorityq-heap.obj : warning LNK4006: ___gl_pqHeapDelete 已在 priorityq.obj 中定义；已忽略第二个定义
+priorityq-heap.obj : warning LNK4006: ___gl_pqHeapDeletePriorityQ 已在 priorityq.obj 中定义；已忽略第二个定义
+priorityq-heap.obj : warning LNK4006: ___gl_pqHeapExtractMin 已在 priorityq.obj 中定义；已忽略第二个定义
+priorityq-heap.obj : warning LNK4006: ___gl_pqHeapInit 已在 priorityq.obj 中定义；已忽略第二个定义
+priorityq-heap.obj : warning LNK4006: ___gl_pqHeapInsert 已在 priorityq.obj 中定义；已忽略第二个定义
+priorityq-heap.obj : warning LNK4006: ___gl_pqHeapNewPriorityQ 已在 priorityq.obj 中定义；已忽略第二个定义
+priorityq-heap.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+  3rd_glutess.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\lib\Release\3rd_glutess.lib

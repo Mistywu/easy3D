@@ -1,0 +1,376 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/easy3d/algo/CMakeLists.txt
+  delaunay.cpp
+  Stack trace not available for this compiler
+  delaunay_2d.cpp
+  Stack trace not available for this compiler
+  delaunay_3d.cpp
+  Stack trace not available for this compiler
+  extrusion.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\extrusion.cpp(77): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\easy3d/algo/tessellator.h(101): warning C4018: “<”: 有符号/无符号不匹配
+  E:\workspace\reconstruction\Easy3D-main\easy3d/algo/tessellator.h(64): note: 参见对正在编译的函数 模板 实例化“void easy3d::Tessellator::Vertex::append<easy3d::vec3>(const Vec &)”的引用
+          with
+          [
+              Vec=easy3d::vec3
+          ]
+  surface_mesh_geometry.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_geometry.cpp(220): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_geometry.cpp(248): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_geometry.cpp(262): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_geometry.cpp(262): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_geometry.cpp(265): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  gaussian_noise.cpp
+  Stack trace not available for this compiler
+  point_cloud_normals.cpp
+  Stack trace not available for this compiler
+  point_cloud_poisson_reconstruction.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\3rd_party/poisson/MyTime.h(42): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\sys/timeb.h(76): note: 参见“_ftime64”的声明
+e:\workspace\reconstruction\easy3d-main\3rd_party\poisson\MultiGridOctreeData.SortedTreeNodes.inl(84): warning C4018: “<”: 有符号/无符号不匹配
+e:\workspace\reconstruction\easy3d-main\3rd_party\poisson\MultiGridOctreeData.SortedTreeNodes.inl(131): warning C4018: “>”: 有符号/无符号不匹配
+e:\workspace\reconstruction\easy3d-main\3rd_party\poisson\MultiGridOctreeData.SortedTreeNodes.inl(264): warning C4018: “>=”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\point_cloud_poisson_reconstruction.cpp(414): warning C4018: “<”: 有符号/无符号不匹配
+e:\workspace\reconstruction\easy3d-main\3rd_party\poisson\MyTreeInit.inl(57): warning C4018: “>=”: 有符号/无符号不匹配
+  E:\workspace\reconstruction\Easy3D-main\easy3d\algo\point_cloud_poisson_reconstruction.cpp(276): note: 参见对正在编译的函数 模板 实例化“int Octree<float>::init<Point3D<float>>(size_t,const float *,const float *,const float *,const XForm4x4<Real> &,Octree<Real>::LocalDepth,bool,std::vector<Octree<Real>::PointSample,std::allocator<_Ty>> &,std::vector<ProjectiveData<Point3D<Real>,Real>,std::allocator<ProjectiveData<Point3D<Real>,Real>>> *)”的引用
+          with
+          [
+              Real=float,
+              _Ty=Octree<float>::PointSample
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\algo\point_cloud_poisson_reconstruction.cpp(275): note: 参见对正在编译的函数 模板 实例化“int Octree<float>::init<Point3D<float>>(size_t,const float *,const float *,const float *,const XForm4x4<Real> &,Octree<Real>::LocalDepth,bool,std::vector<Octree<Real>::PointSample,std::allocator<_Ty>> &,std::vector<ProjectiveData<Point3D<Real>,Real>,std::allocator<ProjectiveData<Point3D<Real>,Real>>> *)”的引用
+          with
+          [
+              Real=float,
+              _Ty=Octree<float>::PointSample
+          ]
+e:\workspace\reconstruction\easy3d-main\3rd_party\poisson\MultiGridOctreeData.inl(285): warning C4018: “<”: 有符号/无符号不匹配
+  E:\workspace\reconstruction\Easy3D-main\easy3d\algo\point_cloud_poisson_reconstruction.cpp(304): note: 参见对正在编译的函数 模板 实例化“Octree<float>::DensityEstimator<2> *Octree<float>::setDensityEstimator<2>(const std::vector<Octree<float>::PointSample,std::allocator<_Ty>> &,Octree<float>::LocalDepth,Real)”的引用
+          with
+          [
+              _Ty=Octree<float>::PointSample,
+              Real=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\algo\point_cloud_poisson_reconstruction.cpp(304): note: 参见对正在编译的函数 模板 实例化“Octree<float>::DensityEstimator<2> *Octree<float>::setDensityEstimator<2>(const std::vector<Octree<float>::PointSample,std::allocator<_Ty>> &,Octree<float>::LocalDepth,Real)”的引用
+          with
+          [
+              _Ty=Octree<float>::PointSample,
+              Real=float
+          ]
+e:\workspace\reconstruction\easy3d-main\3rd_party\poisson\MultiGridOctreeData.inl(303): warning C4018: “<”: 有符号/无符号不匹配
+e:\workspace\reconstruction\easy3d-main\3rd_party\poisson\MultiGridOctreeData.inl(345): warning C4018: “<”: 有符号/无符号不匹配
+  E:\workspace\reconstruction\Easy3D-main\easy3d\algo\point_cloud_poisson_reconstruction.cpp(315): note: 参见对正在编译的函数 模板 实例化“SparseNodeData<Point3D<float>,2> Octree<float>::setNormalField<2,2>(const std::vector<Octree<float>::PointSample,std::allocator<_Ty>> &,const Octree<float>::DensityEstimator<2> &,Real &,bool)”的引用
+          with
+          [
+              _Ty=Octree<float>::PointSample,
+              Real=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\algo\point_cloud_poisson_reconstruction.cpp(315): note: 参见对正在编译的函数 模板 实例化“SparseNodeData<Point3D<float>,2> Octree<float>::setNormalField<2,2>(const std::vector<Octree<float>::PointSample,std::allocator<_Ty>> &,const Octree<float>::DensityEstimator<2> &,Real &,bool)”的引用
+          with
+          [
+              _Ty=Octree<float>::PointSample,
+              Real=float
+          ]
+e:\workspace\reconstruction\easy3d-main\3rd_party\poisson\MultiGridOctreeData.inl(371): warning C4018: “<”: 有符号/无符号不匹配
+  E:\workspace\reconstruction\Easy3D-main\easy3d\algo\point_cloud_poisson_reconstruction.cpp(442): note: 参见对正在编译的函数 模板 实例化“SparseNodeData<ProjectiveData<Point3D<float>,Real>,1> Octree<Real>::setDataField<1,false,2,Point3D<Real>>(const std::vector<Octree<Real>::PointSample,std::allocator<_Ty>> &,std::vector<ProjectiveData<Point3D<Real>,Real>,std::allocator<ProjectiveData<Point3D<Real>,Real>>> &,const Octree<Real>::DensityEstimator<2> *)”的引用
+          with
+          [
+              Real=float,
+              _Ty=Octree<float>::PointSample
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\algo\point_cloud_poisson_reconstruction.cpp(441): note: 参见对正在编译的函数 模板 实例化“SparseNodeData<ProjectiveData<Point3D<float>,Real>,1> Octree<Real>::setDataField<1,false,2,Point3D<Real>>(const std::vector<Octree<Real>::PointSample,std::allocator<_Ty>> &,std::vector<ProjectiveData<Point3D<Real>,Real>,std::allocator<ProjectiveData<Point3D<Real>,Real>>> &,const Octree<Real>::DensityEstimator<2> *)”的引用
+          with
+          [
+              Real=float,
+              _Ty=Octree<float>::PointSample
+          ]
+e:\workspace\reconstruction\easy3d-main\3rd_party\poisson\MultiGridOctreeData.inl(515): warning C4018: “<”: 有符号/无符号不匹配
+  E:\workspace\reconstruction\Easy3D-main\3rd_party/poisson/MultiGridOctreeData.h(469): note: 参见对正在编译的函数 模板 实例化“SparseNodeData<SinglePointData<Real,false>,0> Octree<Real>::_densifyInterpolationInfo<false>(const std::vector<Octree<Real>::PointSample,std::allocator<_Ty>> &,Real,int) const”的引用
+          with
+          [
+              Real=float,
+              _Ty=Octree<float>::PointSample
+          ]
+  E:\workspace\reconstruction\Easy3D-main\3rd_party/poisson/MultiGridOctreeData.h(469): note: 参见对正在编译的函数 模板 实例化“SparseNodeData<SinglePointData<Real,false>,0> Octree<Real>::_densifyInterpolationInfo<false>(const std::vector<Octree<Real>::PointSample,std::allocator<_Ty>> &,Real,int) const”的引用
+          with
+          [
+              Real=float,
+              _Ty=Octree<float>::PointSample
+          ]
+  E:\workspace\reconstruction\Easy3D-main\3rd_party/poisson/MultiGridOctreeData.h(468): note: 编译 类 模板 成员函数 "Octree<float>::InterpolationInfo<false>::InterpolationInfo(const Octree<float> &,const std::vector<Octree<float>::PointSample,std::allocator<_Ty>> &,Real,int,Real,Real)" 时
+          with
+          [
+              _Ty=Octree<float>::PointSample,
+              Real=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\algo\point_cloud_poisson_reconstruction.cpp(368): note: 参见对正在编译的函数 模板 实例化“Octree<float>::InterpolationInfo<false>::InterpolationInfo(const Octree<float> &,const std::vector<Octree<float>::PointSample,std::allocator<_Ty>> &,Real,int,Real,Real)”的引用
+          with
+          [
+              _Ty=Octree<float>::PointSample,
+              Real=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\algo\point_cloud_poisson_reconstruction.cpp(368): note: 参见对正在编译的 类 模板 实例化 "Octree<float>::InterpolationInfo<false>" 的引用
+  point_cloud_ransac.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\point_cloud_ransac.cpp(267): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\point_cloud_ransac.cpp(317): warning C4018: “<”: 有符号/无符号不匹配
+  point_cloud_simplification.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\point_cloud_simplification.cpp(180): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\point_cloud_simplification.cpp(313): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\point_cloud_simplification.cpp(331): warning C4018: “<”: 有符号/无符号不匹配
+  surface_mesh_components.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d/algo/tessellator.h(101): warning C4018: “<”: 有符号/无符号不匹配
+  E:\workspace\reconstruction\Easy3D-main\easy3d/algo/tessellator.h(64): note: 参见对正在编译的函数 模板 实例化“void easy3d::Tessellator::Vertex::append<easy3d::vec3>(const Vec &)”的引用
+          with
+          [
+              Vec=easy3d::vec3
+          ]
+  surface_mesh_curvature.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_curvature.cpp(56): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_curvature.cpp(64): warning C4244: “=”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_curvature.cpp(72): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_curvature.cpp(78): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_curvature.cpp(97): warning C4244: “=”: 从“_Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_curvature.cpp(261): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_curvature.cpp(262): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_curvature.cpp(305): warning C4244: “=”: 从“const _Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+  surface_mesh_enumerator.cpp
+  Stack trace not available for this compiler
+  surface_mesh_fairing.cpp
+  Stack trace not available for this compiler
+e:\workspace\reconstruction\easy3d-main\3rd_party\eigen\eigen\src/Core/arch/Default/Half.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_fairing.cpp(160): warning C4244: “参数”: 从“const double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+  surface_mesh_features.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_features.cpp(47): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_features.cpp(47): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+  surface_mesh_geodesic.cpp
+E:\workspace\reconstruction\Easy3D-main\easy3d/algo/surface_mesh_geodesic.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_geodesic.cpp(43): warning C4305: “初始化”: 从“double”到“float”截断
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_geodesic.cpp(65): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_geodesic.cpp(367): warning C4244: “return”: 从“const double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_geodesic.cpp(381): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_geodesic.cpp(386): warning C4244: “return”: 从“const double”转换到“float”，可能丢失数据
+  surface_mesh_hole_filling.cpp
+E:\workspace\reconstruction\Easy3D-main\easy3d/algo/surface_mesh_hole_filling.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Stack trace not available for this compiler
+e:\workspace\reconstruction\easy3d-main\3rd_party\eigen\eigen\src/Core/arch/Default/Half.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_hole_filling.cpp(56): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_hole_filling.cpp(229): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_hole_filling.cpp(230): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_hole_filling.cpp(436): warning C4244: “参数”: 从“const double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+  surface_mesh_parameterization.cpp
+E:\workspace\reconstruction\Easy3D-main\easy3d/algo/surface_mesh_parameterization.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Stack trace not available for this compiler
+e:\workspace\reconstruction\easy3d-main\3rd_party\eigen\eigen\src/Core/arch/Default/Half.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_parameterization.cpp(75): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_parameterization.cpp(77): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_parameterization.cpp(78): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_parameterization.cpp(107): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_parameterization.cpp(168): warning C4244: “参数”: 从“const double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_parameterization.cpp(380): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+  surface_mesh_polygonization.cpp
+  Stack trace not available for this compiler
+  surface_mesh_remeshing.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_remeshing.cpp(192): warning C4244: “=”: 从“const _Ty”转换到“float”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_remeshing.cpp(202): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_remeshing.cpp(202): warning C4244: “初始化”: 从“double”转换到“const float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_remeshing.cpp(208): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_remeshing.cpp(211): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_remeshing.cpp(606): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_remeshing.cpp(647): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_remeshing.cpp(697): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/types.h(362): warning C4305: “参数”: 从“double”到“const T”截断
+          with
+          [
+              T=float
+          ]
+  E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_remeshing.cpp(291): note: 参见对正在编译的函数 模板 实例化“easy3d::Vec<3,float> easy3d::geom::barycentric_coordinates<float>(const easy3d::Vec<3,float> &,const easy3d::Vec<3,float> &,const easy3d::Vec<3,float> &,const easy3d::Vec<3,float> &)”的引用
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/types.h(390): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/types.h(391): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/types.h(392): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/types.h(399): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/types.h(400): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/types.h(401): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/types.h(408): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/types.h(409): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d/core/types.h(410): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+  正在生成代码...
+  正在编译...
+  surface_mesh_sampler.cpp
+  Stack trace not available for this compiler
+  surface_mesh_simplification.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d/algo/surface_mesh_simplification.h(132): warning C4305: “=”: 从“double”到“float”截断
+E:\workspace\reconstruction\Easy3D-main\easy3d/algo/surface_mesh_simplification.h(138): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d/algo/surface_mesh_simplification.h(141): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_simplification.cpp(54): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_simplification.cpp(412): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+  surface_mesh_smoothing.cpp
+  Stack trace not available for this compiler
+e:\workspace\reconstruction\easy3d-main\3rd_party\eigen\eigen\src/Core/arch/Default/Half.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_smoothing.cpp(56): warning C4244: “=”: 从“const _Ty”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_smoothing.cpp(69): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_smoothing.cpp(72): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_smoothing.cpp(220): warning C4244: “参数”: 从“const double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+  surface_mesh_stitching.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_stitching.cpp(153): warning C4018: “<”: 有符号/无符号不匹配
+  surface_mesh_subdivision.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_subdivision.cpp(118): warning C4244: “初始化”: 从“unsigned int”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_subdivision.cpp(118): warning C4244: “初始化”: 从“unsigned int”转换到“const float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_subdivision.cpp(264): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_subdivision.cpp(357): warning C4244: “初始化”: 从“unsigned int”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_subdivision.cpp(358): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  surface_mesh_tetrahedralization.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\surface_mesh_tetrahedralization.cpp(179): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+  surface_mesh_topology.cpp
+  Stack trace not available for this compiler
+  surface_mesh_triangulation.cpp
+  Stack trace not available for this compiler
+  tessellator.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d/algo/tessellator.h(101): warning C4018: “<”: 有符号/无符号不匹配
+  E:\workspace\reconstruction\Easy3D-main\easy3d/algo/tessellator.h(64): note: 参见对正在编译的函数 模板 实例化“void easy3d::Tessellator::Vertex::append<easy3d::vec3>(const Vec &)”的引用
+          with
+          [
+              Vec=easy3d::vec3
+          ]
+  text_mesher.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\text_mesher.cpp(72): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\text_mesher.cpp(119): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\text_mesher.cpp(186): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\easy3d\algo\text_mesher.cpp(202): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\easy3d/algo/tessellator.h(101): warning C4018: “<”: 有符号/无符号不匹配
+  E:\workspace\reconstruction\Easy3D-main\easy3d/algo/tessellator.h(64): note: 参见对正在编译的函数 模板 实例化“void easy3d::Tessellator::Vertex::append<easy3d::vec3>(const Vec &)”的引用
+          with
+          [
+              Vec=easy3d::vec3
+          ]
+  triangle_mesh_kdtree.cpp
+  Stack trace not available for this compiler
+  正在生成代码...
+  easy3d_algo.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\lib\Release\easy3d_algo.lib

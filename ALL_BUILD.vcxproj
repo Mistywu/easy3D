@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8DFAC6B5-63CF-35E7-89F6-CF710375D5AC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);E:\workspace\needs\qt5.12.9\Tools\QtCreator\bin\clang\lib\clang\8.0.1\include</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\workspace\reconstruction\Easy3D-main\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/workspace/reconstruction/Easy3D-main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/reconstruction/Easy3D-main -BE:/workspace/reconstruction/Easy3D-main/build --check-stamp-file E:/workspace/reconstruction/Easy3D-main/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\3.19.1\CMakeCXXCompiler.cmake;E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\3.19.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/workspace/reconstruction/Easy3D-main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/reconstruction/Easy3D-main -BE:/workspace/reconstruction/Easy3D-main/build --check-stamp-file E:/workspace/reconstruction/Easy3D-main/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\3.19.1\CMakeCXXCompiler.cmake;E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\3.19.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/workspace/reconstruction/Easy3D-main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/reconstruction/Easy3D-main -BE:/workspace/reconstruction/Easy3D-main/build --check-stamp-file E:/workspace/reconstruction/Easy3D-main/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\3.19.1\CMakeCXXCompiler.cmake;E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\3.19.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/workspace/reconstruction/Easy3D-main/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/reconstruction/Easy3D-main -BE:/workspace/reconstruction/Easy3D-main/build --check-stamp-file E:/workspace/reconstruction/Easy3D-main/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\3.19.1\CMakeCCompiler.cmake;E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\3.19.1\CMakeCXXCompiler.cmake;E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\3.19.1\CMakeRCCompiler.cmake;E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\3.19.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\workspace\reconstruction\Easy3D-main\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\ZERO_CHECK.vcxproj">
+      <Project>{14EEAA4B-B71A-3483-B243-FA07BA8DB49A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\backward\3rd_backward.vcxproj">
+      <Project>{32C903B1-ECF1-3F7D-8298-BB82888CA150}</Project>
+      <Name>3rd_backward</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\easyloggingpp\3rd_easyloggingpp.vcxproj">
+      <Project>{922C2CE9-699C-32C3-B07A-085C374AAEC6}</Project>
+      <Name>3rd_easyloggingpp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\glew\3rd_glew.vcxproj">
+      <Project>{D7F78400-F6C8-32C4-8531-92E370062C32}</Project>
+      <Name>3rd_glew</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\glfw\src\3rd_glfw.vcxproj">
+      <Project>{6495AEBB-363B-3164-82D3-0D6FC1F2AC22}</Project>
+      <Name>3rd_glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\glutess\3rd_glutess.vcxproj">
+      <Project>{9080BC45-C398-3B0A-B87D-40FEDF89E62F}</Project>
+      <Name>3rd_glutess</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\imgui\3rd_imgui.vcxproj">
+      <Project>{F8FE156A-319B-34D2-AB2E-AFE085EEB8DC}</Project>
+      <Name>3rd_imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\kdtree\3rd_kdtree.vcxproj">
+      <Project>{590CEC96-142D-3FF2-B67F-43FC5D144D9A}</Project>
+      <Name>3rd_kdtree</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\lastools\3rd_lastools.vcxproj">
+      <Project>{B203A592-DE12-3B27-A417-7EF179D738D8}</Project>
+      <Name>3rd_lastools</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\poisson\3rd_poisson.vcxproj">
+      <Project>{4B705ABC-3C22-36D2-9E68-D9CB8BE110D9}</Project>
+      <Name>3rd_poisson</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\ransac\3rd_ransac.vcxproj">
+      <Project>{74040708-0D56-3BA1-B0F5-D4874ABA7AA9}</Project>
+      <Name>3rd_ransac</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\rply\3rd_rply.vcxproj">
+      <Project>{1D6C1E15-796E-3A4F-9A56-06F7CA4DC296}</Project>
+      <Name>3rd_rply</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\tetgen\3rd_tetgen.vcxproj">
+      <Project>{6F2F36F8-36F7-3D51-99B7-F93E83E5AE8A}</Project>
+      <Name>3rd_tetgen</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\triangle\3rd_triangle.vcxproj">
+      <Project>{97A50E10-60EC-3102-9F67-2870381A109C}</Project>
+      <Name>3rd_triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_101_PointCloud\Tutorial_101_PointCloud.vcxproj">
+      <Project>{F66AE823-6294-3F16-803C-DD67BE65783E}</Project>
+      <Name>Tutorial_101_PointCloud</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_102_PointCloud_Property\Tutorial_102_PointCloud_Property.vcxproj">
+      <Project>{55775BF0-D79A-3CDB-B479-50BEAD2D0521}</Project>
+      <Name>Tutorial_102_PointCloud_Property</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_103_PointCloud_IO\Tutorial_103_PointCloud_IO.vcxproj">
+      <Project>{F4710197-A669-31AF-9B6F-CAEA92E77258}</Project>
+      <Name>Tutorial_103_PointCloud_IO</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_104_SurfaceMesh\Tutorial_104_SurfaceMesh.vcxproj">
+      <Project>{AE811F4D-E5E5-3A22-A01F-059D32F58181}</Project>
+      <Name>Tutorial_104_SurfaceMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_105_SurfaceMesh_Connectivity\Tutorial_105_SurfaceMesh_Connectivity.vcxproj">
+      <Project>{302AE003-E940-364F-B2B6-D06F6BAC669F}</Project>
+      <Name>Tutorial_105_SurfaceMesh_Connectivity</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_106_SurfaceMesh_Property\Tutorial_106_SurfaceMesh_Property.vcxproj">
+      <Project>{8AFBCB32-3A8D-33F2-9C38-1B41EB5427CD}</Project>
+      <Name>Tutorial_106_SurfaceMesh_Property</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_107_SurfaceMesh_IO\Tutorial_107_SurfaceMesh_IO.vcxproj">
+      <Project>{30944C53-8E1F-3CB3-B772-9BF33EF41C7C}</Project>
+      <Name>Tutorial_107_SurfaceMesh_IO</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_108_Graph\Tutorial_108_Graph.vcxproj">
+      <Project>{F51604CA-E23C-326B-A1C1-795CC9605459}</Project>
+      <Name>Tutorial_108_Graph</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_109_Graph_Connectivity\Tutorial_109_Graph_Connectivity.vcxproj">
+      <Project>{068C397D-C613-3734-9162-7272671B7778}</Project>
+      <Name>Tutorial_109_Graph_Connectivity</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_110_Graph_Property\Tutorial_110_Graph_Property.vcxproj">
+      <Project>{5D4AEFB0-1DCB-39F2-9F4C-F90161505382}</Project>
+      <Name>Tutorial_110_Graph_Property</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_111_Graph_IO\Tutorial_111_Graph_IO.vcxproj">
+      <Project>{514C499A-EC43-3089-9960-103B8A2FD8AB}</Project>
+      <Name>Tutorial_111_Graph_IO</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_112_PolyMesh\Tutorial_112_PolyMesh.vcxproj">
+      <Project>{A679AEAC-5732-3E6F-BADB-166D8B227BF3}</Project>
+      <Name>Tutorial_112_PolyMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_113_PolyMesh_Connectivity\Tutorial_113_PolyMesh_Connectivity.vcxproj">
+      <Project>{A850CBF6-AFF3-3356-B6AD-2313A055B7B3}</Project>
+      <Name>Tutorial_113_PolyMesh_Connectivity</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_114_PolyMesh_Property\Tutorial_114_PolyMesh_Property.vcxproj">
+      <Project>{7A9A11E0-1976-3088-B31A-867E923D9903}</Project>
+      <Name>Tutorial_114_PolyMesh_Property</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_115_PolyMesh_IO\Tutorial_115_PolyMesh_IO.vcxproj">
+      <Project>{3DEE2A02-8EA9-353F-9F4B-5A4D659B9A36}</Project>
+      <Name>Tutorial_115_PolyMesh_IO</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_201_Viewer_imgui\Tutorial_201_Viewer_imgui.vcxproj">
+      <Project>{DC5AB689-7140-3C88-B273-E3F1F02D7C68}</Project>
+      <Name>Tutorial_201_Viewer_imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_203_CompositeView\Tutorial_203_CompositeView.vcxproj">
+      <Project>{0D8762D2-D64B-3436-8740-F56521E002CE}</Project>
+      <Name>Tutorial_203_CompositeView</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_204_CameraInterpolation\Tutorial_204_CameraInterpolation.vcxproj">
+      <Project>{7580D3C7-BA51-3A32-A7B6-CC23BEF9ADBA}</Project>
+      <Name>Tutorial_204_CameraInterpolation</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_205_RealCamera\Tutorial_205_RealCamera.vcxproj">
+      <Project>{77BECB99-5E09-3887-B12A-54A4896561E2}</Project>
+      <Name>Tutorial_205_RealCamera</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_301_Drawables\Tutorial_301_Drawables.vcxproj">
+      <Project>{C076B931-8826-3866-B770-B062B17E9A3F}</Project>
+      <Name>Tutorial_301_Drawables</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_302_Imposters\Tutorial_302_Imposters.vcxproj">
+      <Project>{910C6AFF-943E-3309-937B-B0C861F5EB7E}</Project>
+      <Name>Tutorial_302_Imposters</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_303_ScalarField\Tutorial_303_ScalarField.vcxproj">
+      <Project>{5BA19B6D-88C3-37F1-A59D-A066C67D1113}</Project>
+      <Name>Tutorial_303_ScalarField</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_304_VectorField\Tutorial_304_VectorField.vcxproj">
+      <Project>{A35EDA81-651B-3DE3-8CA5-9CAD22B95EC2}</Project>
+      <Name>Tutorial_304_VectorField</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_305_Texture\Tutorial_305_Texture.vcxproj">
+      <Project>{75A4720C-0D32-3DEB-BD89-513257455153}</Project>
+      <Name>Tutorial_305_Texture</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_306_Image\Tutorial_306_Image.vcxproj">
+      <Project>{A9F7A574-1875-3CDD-8A2F-0BECB7899974}</Project>
+      <Name>Tutorial_306_Image</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_307_Tessellator\Tutorial_307_Tessellator.vcxproj">
+      <Project>{9E7616C5-33E4-3878-9C6B-EE6B92023EFC}</Project>
+      <Name>Tutorial_307_Tessellator</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_308_TexturedMesh\Tutorial_308_TexturedMesh.vcxproj">
+      <Project>{5C2B08AB-06E9-3917-BB29-0F4820318B8E}</Project>
+      <Name>Tutorial_308_TexturedMesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_309_TextRendering\Tutorial_309_TextRendering.vcxproj">
+      <Project>{7D09DF6F-69DD-3198-B031-88771253213D}</Project>
+      <Name>Tutorial_309_TextRendering</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_310_TextMesher\Tutorial_310_TextMesher.vcxproj">
+      <Project>{C6ECDC27-D4A5-3FAB-ADCE-76ED873F67C0}</Project>
+      <Name>Tutorial_310_TextMesher</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_311_Animation\Tutorial_311_Animation.vcxproj">
+      <Project>{7FB9ACB8-B722-38C1-84D2-C9FEB0D2E756}</Project>
+      <Name>Tutorial_311_Animation</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_401_ModelPicker\Tutorial_401_ModelPicker.vcxproj">
+      <Project>{AABC1995-3A4D-3EC9-935D-856AA0C3E810}</Project>
+      <Name>Tutorial_401_ModelPicker</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_402_FacePicker\Tutorial_402_FacePicker.vcxproj">
+      <Project>{3D0FA866-BC45-3F36-B9E5-3E7CE95A1CC0}</Project>
+      <Name>Tutorial_402_FacePicker</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_403_PointSelection\Tutorial_403_PointSelection.vcxproj">
+      <Project>{EFDDB1D2-DFFE-3C1F-B582-5A872EA4ABF5}</Project>
+      <Name>Tutorial_403_PointSelection</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_501_AmbientOcclusion\Tutorial_501_AmbientOcclusion.vcxproj">
+      <Project>{D208F86E-C966-36FA-8B73-F974A80D9F41}</Project>
+      <Name>Tutorial_501_AmbientOcclusion</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_502_HardShadow\Tutorial_502_HardShadow.vcxproj">
+      <Project>{043DBE15-6E16-3AC6-9D9A-28A11104CC1A}</Project>
+      <Name>Tutorial_502_HardShadow</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_503_SoftShadow\Tutorial_503_SoftShadow.vcxproj">
+      <Project>{F93CD4FB-76DE-390E-A4F6-1E893CA3F060}</Project>
+      <Name>Tutorial_503_SoftShadow</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_504_Transparency\Tutorial_504_Transparency.vcxproj">
+      <Project>{391D893C-5623-320B-BACA-F2F0B2A262F3}</Project>
+      <Name>Tutorial_504_Transparency</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_505_EyeDomeLighting\Tutorial_505_EyeDomeLighting.vcxproj">
+      <Project>{C7658A21-9F53-378E-AE2B-D40065F623BD}</Project>
+      <Name>Tutorial_505_EyeDomeLighting</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_506_DepthMaps\Tutorial_506_DepthMaps.vcxproj">
+      <Project>{8A67B7C9-A58A-3B90-B7ED-DF27C367863E}</Project>
+      <Name>Tutorial_506_DepthMaps</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_601_Cloud_NormalEstimation\Tutorial_601_Cloud_NormalEstimation.vcxproj">
+      <Project>{28B7690C-1936-3236-8EF5-D1BABCD15CE3}</Project>
+      <Name>Tutorial_601_Cloud_NormalEstimation</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_602_Cloud_SurfaceReconstruction\Tutorial_602_Cloud_SurfaceReconstruction.vcxproj">
+      <Project>{3B36E547-82B4-3908-A4F2-F459D3C0E876}</Project>
+      <Name>Tutorial_602_Cloud_SurfaceReconstruction</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_603_Cloud_PlaneExtraction\Tutorial_603_Cloud_PlaneExtraction.vcxproj">
+      <Project>{4BAE9114-2401-3E44-9060-6AE1221D1758}</Project>
+      <Name>Tutorial_603_Cloud_PlaneExtraction</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\easy3d\algo\easy3d_algo.vcxproj">
+      <Project>{12AF9EC7-A6AD-3DA8-AAE1-D1D9C9AAA6DE}</Project>
+      <Name>easy3d_algo</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\easy3d\core\easy3d_core.vcxproj">
+      <Project>{740CE8A0-B307-3B94-A274-359006B49F2F}</Project>
+      <Name>easy3d_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\easy3d\fileio\easy3d_fileio.vcxproj">
+      <Project>{B1652914-0261-3CF3-850F-810849D6790A}</Project>
+      <Name>easy3d_fileio</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\easy3d\gui\easy3d_gui.vcxproj">
+      <Project>{B5BB8B32-27AA-39C3-8D14-71B1819F6766}</Project>
+      <Name>easy3d_gui</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\easy3d\kdtree\easy3d_kdtree.vcxproj">
+      <Project>{B2D3EBA1-C169-3C8C-A8C3-F1DFB67D1ABC}</Project>
+      <Name>easy3d_kdtree</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\easy3d\renderer\easy3d_renderer.vcxproj">
+      <Project>{08AEC4CF-8520-3839-9823-151C4D90F833}</Project>
+      <Name>easy3d_renderer</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\easy3d\util\easy3d_util.vcxproj">
+      <Project>{0F754C2A-E026-3BF2-A196-94FCA225AD70}</Project>
+      <Name>easy3d_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\easy3d\viewer\easy3d_viewer.vcxproj">
+      <Project>{38057853-C7CC-34AD-A719-E6088497E021}</Project>
+      <Name>easy3d_viewer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

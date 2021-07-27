@@ -1,0 +1,72 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/easy3d/fileio/CMakeLists.txt
+  image_io.cpp
+  Stack trace not available for this compiler
+  graph_io.cpp
+  Stack trace not available for this compiler
+  graph_io_ply.cpp
+  Stack trace not available for this compiler
+  ply_reader_writer.cpp
+  Stack trace not available for this compiler
+  point_cloud_io.cpp
+  Stack trace not available for this compiler
+  point_cloud_io_bin.cpp
+  Stack trace not available for this compiler
+  point_cloud_io_las.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\point_cloud_io_las.cpp(55): warning C4244: “初始化”: 从“I64”转换到“size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\point_cloud_io_las.cpp(107): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+  point_cloud_io_ply.cpp
+  Stack trace not available for this compiler
+  point_cloud_io_ptx.cpp
+  Stack trace not available for this compiler
+  point_cloud_io_vg.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\point_cloud_io_vg.cpp(317): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+  point_cloud_io_xyz.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\point_cloud_io_xyz.cpp(53): warning C4244: “参数”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\point_cloud_io_xyz.cpp(68): warning C4244: “参数”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\point_cloud_io_xyz.cpp(122): warning C4244: “初始化”: 从“std::streamoff”转换到“size_t”，可能丢失数据
+  surface_mesh_io.cpp
+  Stack trace not available for this compiler
+  surface_mesh_io_obj.cpp
+  Stack trace not available for this compiler
+  surface_mesh_io_off.cpp
+  Stack trace not available for this compiler
+  surface_mesh_io_ply.cpp
+  Stack trace not available for this compiler
+  surface_mesh_io_sm.cpp
+  Stack trace not available for this compiler
+  surface_mesh_io_stl.cpp
+  Stack trace not available for this compiler
+  poly_mesh_io.cpp
+  Stack trace not available for this compiler
+  poly_mesh_io_mesh.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\poly_mesh_io_mesh.cpp(142): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+  poly_mesh_io_plm.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\poly_mesh_io_plm.cpp(57): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\poly_mesh_io_plm.cpp(64): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\poly_mesh_io_plm.cpp(67): warning C4018: “<”: 有符号/无符号不匹配
+E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\poly_mesh_io_plm.cpp(70): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+  正在编译...
+  poly_mesh_io_pm.cpp
+  Stack trace not available for this compiler
+  resources.cpp
+  Stack trace not available for this compiler
+  正在生成代码...
+  easy3d_fileio.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\lib\Release\easy3d_fileio.lib

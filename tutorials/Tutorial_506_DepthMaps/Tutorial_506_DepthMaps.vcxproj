@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8A67B7C9-A58A-3B90-B7ED-DF27C367863E}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>Tutorial_506_DepthMaps</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\workspace\reconstruction\Easy3D-main\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Tutorial_506_DepthMaps.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Tutorial_506_DepthMaps</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\workspace\reconstruction\Easy3D-main\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Tutorial_506_DepthMaps.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Tutorial_506_DepthMaps</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\workspace\reconstruction\Easy3D-main\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Tutorial_506_DepthMaps.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Tutorial_506_DepthMaps</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\workspace\reconstruction\Easy3D-main\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Tutorial_506_DepthMaps.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Tutorial_506_DepthMaps</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\glew\include;E:\workspace\reconstruction\Easy3D-main\3rd_party\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ENV_32_BIT;BACKWARD_HAS_UNWIND=1;BACKWARD_HAS_LIBUNWIND=0;BACKWARD_HAS_BACKTRACE=0;BACKWARD_HAS_BACKTRACE_SYMBOL=1;BACKWARD_HAS_DW=0;BACKWARD_HAS_BFD=0;BACKWARD_HAS_DWARF=0;ELPP_FEATURE_ALL;ELPP_STL_LOGGING;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;ELPP_DISABLE_DEFAULT_CRASH_HANDLING;NOMINMAX;GLEW_STATIC;GLEW_NO_GLU;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;ENV_32_BIT;BACKWARD_HAS_UNWIND=1;BACKWARD_HAS_LIBUNWIND=0;BACKWARD_HAS_BACKTRACE=0;BACKWARD_HAS_BACKTRACE_SYMBOL=1;BACKWARD_HAS_DW=0;BACKWARD_HAS_BFD=0;BACKWARD_HAS_DWARF=0;ELPP_FEATURE_ALL;ELPP_STL_LOGGING;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;ELPP_DISABLE_DEFAULT_CRASH_HANDLING;NOMINMAX;GLEW_STATIC;GLEW_NO_GLU;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\glew\include;E:\workspace\reconstruction\Easy3D-main\3rd_party\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\glew\include;E:\workspace\reconstruction\Easy3D-main\3rd_party\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\easy3d_core.lib;..\..\lib\Debug\easy3d_renderer.lib;..\..\lib\Debug\easy3d_viewer.lib;..\..\lib\Debug\easy3d_renderer.lib;..\..\lib\Debug\3rd_glew.lib;opengl32.lib;glu32.lib;..\..\lib\Debug\easy3d_fileio.lib;..\..\lib\Debug\3rd_lastools.lib;..\..\lib\Debug\3rd_rply.lib;..\..\lib\Debug\easy3d_algo.lib;..\..\lib\Debug\easy3d_kdtree.lib;..\..\lib\Debug\easy3d_core.lib;..\..\lib\Debug\easy3d_util.lib;..\..\lib\Debug\3rd_backward.lib;..\..\lib\Debug\3rd_easyloggingpp.lib;..\..\lib\Debug\3rd_kdtree.lib;..\..\lib\Debug\3rd_poisson.lib;..\..\lib\Debug\3rd_ransac.lib;..\..\lib\Debug\3rd_triangle.lib;..\..\lib\Debug\3rd_tetgen.lib;..\..\lib\Debug\3rd_glutess.lib;..\..\lib\Debug\3rd_glfw.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/workspace/reconstruction/Easy3D-main/build/lib/Debug/Tutorial_506_DepthMaps.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/workspace/reconstruction/Easy3D-main/build/bin/Debug/Tutorial_506_DepthMaps.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\glew\include;E:\workspace\reconstruction\Easy3D-main\3rd_party\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENV_32_BIT;BACKWARD_HAS_UNWIND=1;BACKWARD_HAS_LIBUNWIND=0;BACKWARD_HAS_BACKTRACE=0;BACKWARD_HAS_BACKTRACE_SYMBOL=1;BACKWARD_HAS_DW=0;BACKWARD_HAS_BFD=0;BACKWARD_HAS_DWARF=0;ELPP_FEATURE_ALL;ELPP_STL_LOGGING;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;ELPP_DISABLE_DEFAULT_CRASH_HANDLING;NOMINMAX;GLEW_STATIC;GLEW_NO_GLU;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENV_32_BIT;BACKWARD_HAS_UNWIND=1;BACKWARD_HAS_LIBUNWIND=0;BACKWARD_HAS_BACKTRACE=0;BACKWARD_HAS_BACKTRACE_SYMBOL=1;BACKWARD_HAS_DW=0;BACKWARD_HAS_BFD=0;BACKWARD_HAS_DWARF=0;ELPP_FEATURE_ALL;ELPP_STL_LOGGING;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;ELPP_DISABLE_DEFAULT_CRASH_HANDLING;NOMINMAX;GLEW_STATIC;GLEW_NO_GLU;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\glew\include;E:\workspace\reconstruction\Easy3D-main\3rd_party\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\glew\include;E:\workspace\reconstruction\Easy3D-main\3rd_party\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\easy3d_core.lib;..\..\lib\Release\easy3d_renderer.lib;..\..\lib\Release\easy3d_viewer.lib;..\..\lib\Release\easy3d_renderer.lib;..\..\lib\Release\3rd_glew.lib;opengl32.lib;glu32.lib;..\..\lib\Release\easy3d_fileio.lib;..\..\lib\Release\3rd_lastools.lib;..\..\lib\Release\3rd_rply.lib;..\..\lib\Release\easy3d_algo.lib;..\..\lib\Release\easy3d_kdtree.lib;..\..\lib\Release\easy3d_core.lib;..\..\lib\Release\easy3d_util.lib;..\..\lib\Release\3rd_backward.lib;..\..\lib\Release\3rd_easyloggingpp.lib;..\..\lib\Release\3rd_kdtree.lib;..\..\lib\Release\3rd_poisson.lib;..\..\lib\Release\3rd_ransac.lib;..\..\lib\Release\3rd_triangle.lib;..\..\lib\Release\3rd_tetgen.lib;..\..\lib\Release\3rd_glutess.lib;..\..\lib\Release\3rd_glfw.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/workspace/reconstruction/Easy3D-main/build/lib/Release/Tutorial_506_DepthMaps.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/workspace/reconstruction/Easy3D-main/build/bin/Release/Tutorial_506_DepthMaps.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\glew\include;E:\workspace\reconstruction\Easy3D-main\3rd_party\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENV_32_BIT;BACKWARD_HAS_UNWIND=1;BACKWARD_HAS_LIBUNWIND=0;BACKWARD_HAS_BACKTRACE=0;BACKWARD_HAS_BACKTRACE_SYMBOL=1;BACKWARD_HAS_DW=0;BACKWARD_HAS_BFD=0;BACKWARD_HAS_DWARF=0;ELPP_FEATURE_ALL;ELPP_STL_LOGGING;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;ELPP_DISABLE_DEFAULT_CRASH_HANDLING;NOMINMAX;GLEW_STATIC;GLEW_NO_GLU;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENV_32_BIT;BACKWARD_HAS_UNWIND=1;BACKWARD_HAS_LIBUNWIND=0;BACKWARD_HAS_BACKTRACE=0;BACKWARD_HAS_BACKTRACE_SYMBOL=1;BACKWARD_HAS_DW=0;BACKWARD_HAS_BFD=0;BACKWARD_HAS_DWARF=0;ELPP_FEATURE_ALL;ELPP_STL_LOGGING;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;ELPP_DISABLE_DEFAULT_CRASH_HANDLING;NOMINMAX;GLEW_STATIC;GLEW_NO_GLU;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\glew\include;E:\workspace\reconstruction\Easy3D-main\3rd_party\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\glew\include;E:\workspace\reconstruction\Easy3D-main\3rd_party\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\MinSizeRel\easy3d_core.lib;..\..\lib\MinSizeRel\easy3d_renderer.lib;..\..\lib\MinSizeRel\easy3d_viewer.lib;..\..\lib\MinSizeRel\easy3d_renderer.lib;..\..\lib\MinSizeRel\3rd_glew.lib;opengl32.lib;glu32.lib;..\..\lib\MinSizeRel\easy3d_fileio.lib;..\..\lib\MinSizeRel\3rd_lastools.lib;..\..\lib\MinSizeRel\3rd_rply.lib;..\..\lib\MinSizeRel\easy3d_algo.lib;..\..\lib\MinSizeRel\easy3d_kdtree.lib;..\..\lib\MinSizeRel\easy3d_core.lib;..\..\lib\MinSizeRel\easy3d_util.lib;..\..\lib\MinSizeRel\3rd_backward.lib;..\..\lib\MinSizeRel\3rd_easyloggingpp.lib;..\..\lib\MinSizeRel\3rd_kdtree.lib;..\..\lib\MinSizeRel\3rd_poisson.lib;..\..\lib\MinSizeRel\3rd_ransac.lib;..\..\lib\MinSizeRel\3rd_triangle.lib;..\..\lib\MinSizeRel\3rd_tetgen.lib;..\..\lib\MinSizeRel\3rd_glutess.lib;..\..\lib\MinSizeRel\3rd_glfw.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/workspace/reconstruction/Easy3D-main/build/lib/MinSizeRel/Tutorial_506_DepthMaps.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/workspace/reconstruction/Easy3D-main/build/bin/MinSizeRel/Tutorial_506_DepthMaps.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\glew\include;E:\workspace\reconstruction\Easy3D-main\3rd_party\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENV_32_BIT;BACKWARD_HAS_UNWIND=1;BACKWARD_HAS_LIBUNWIND=0;BACKWARD_HAS_BACKTRACE=0;BACKWARD_HAS_BACKTRACE_SYMBOL=1;BACKWARD_HAS_DW=0;BACKWARD_HAS_BFD=0;BACKWARD_HAS_DWARF=0;ELPP_FEATURE_ALL;ELPP_STL_LOGGING;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;ELPP_DISABLE_DEFAULT_CRASH_HANDLING;NOMINMAX;GLEW_STATIC;GLEW_NO_GLU;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENV_32_BIT;BACKWARD_HAS_UNWIND=1;BACKWARD_HAS_LIBUNWIND=0;BACKWARD_HAS_BACKTRACE=0;BACKWARD_HAS_BACKTRACE_SYMBOL=1;BACKWARD_HAS_DW=0;BACKWARD_HAS_BFD=0;BACKWARD_HAS_DWARF=0;ELPP_FEATURE_ALL;ELPP_STL_LOGGING;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;ELPP_DISABLE_DEFAULT_CRASH_HANDLING;NOMINMAX;GLEW_STATIC;GLEW_NO_GLU;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\glew\include;E:\workspace\reconstruction\Easy3D-main\3rd_party\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\glew\include;E:\workspace\reconstruction\Easy3D-main\3rd_party\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\RelWithDebInfo\easy3d_core.lib;..\..\lib\RelWithDebInfo\easy3d_renderer.lib;..\..\lib\RelWithDebInfo\easy3d_viewer.lib;..\..\lib\RelWithDebInfo\easy3d_renderer.lib;..\..\lib\RelWithDebInfo\3rd_glew.lib;opengl32.lib;glu32.lib;..\..\lib\RelWithDebInfo\easy3d_fileio.lib;..\..\lib\RelWithDebInfo\3rd_lastools.lib;..\..\lib\RelWithDebInfo\3rd_rply.lib;..\..\lib\RelWithDebInfo\easy3d_algo.lib;..\..\lib\RelWithDebInfo\easy3d_kdtree.lib;..\..\lib\RelWithDebInfo\easy3d_core.lib;..\..\lib\RelWithDebInfo\easy3d_util.lib;..\..\lib\RelWithDebInfo\3rd_backward.lib;..\..\lib\RelWithDebInfo\3rd_easyloggingpp.lib;..\..\lib\RelWithDebInfo\3rd_kdtree.lib;..\..\lib\RelWithDebInfo\3rd_poisson.lib;..\..\lib\RelWithDebInfo\3rd_ransac.lib;..\..\lib\RelWithDebInfo\3rd_triangle.lib;..\..\lib\RelWithDebInfo\3rd_tetgen.lib;..\..\lib\RelWithDebInfo\3rd_glutess.lib;..\..\lib\RelWithDebInfo\3rd_glfw.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/workspace/reconstruction/Easy3D-main/build/lib/RelWithDebInfo/Tutorial_506_DepthMaps.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/workspace/reconstruction/Easy3D-main/build/bin/RelWithDebInfo/Tutorial_506_DepthMaps.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_506_DepthMaps\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/workspace/reconstruction/Easy3D-main/tutorials/Tutorial_506_DepthMaps/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/reconstruction/Easy3D-main -BE:/workspace/reconstruction/Easy3D-main/build --check-stamp-file E:/workspace/reconstruction/Easy3D-main/build/tutorials/Tutorial_506_DepthMaps/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_506_DepthMaps\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/workspace/reconstruction/Easy3D-main/tutorials/Tutorial_506_DepthMaps/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/reconstruction/Easy3D-main -BE:/workspace/reconstruction/Easy3D-main/build --check-stamp-file E:/workspace/reconstruction/Easy3D-main/build/tutorials/Tutorial_506_DepthMaps/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_506_DepthMaps\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/workspace/reconstruction/Easy3D-main/tutorials/Tutorial_506_DepthMaps/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/reconstruction/Easy3D-main -BE:/workspace/reconstruction/Easy3D-main/build --check-stamp-file E:/workspace/reconstruction/Easy3D-main/build/tutorials/Tutorial_506_DepthMaps/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_506_DepthMaps\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/workspace/reconstruction/Easy3D-main/tutorials/Tutorial_506_DepthMaps/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/reconstruction/Easy3D-main -BE:/workspace/reconstruction/Easy3D-main/build --check-stamp-file E:/workspace/reconstruction/Easy3D-main/build/tutorials/Tutorial_506_DepthMaps/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\workspace\reconstruction\Easy3D-main\build\tutorials\Tutorial_506_DepthMaps\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_506_DepthMaps\main.cpp" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_506_DepthMaps\viewer.h" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\tutorials\Tutorial_506_DepthMaps\viewer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\ZERO_CHECK.vcxproj">
+      <Project>{14EEAA4B-B71A-3483-B243-FA07BA8DB49A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\backward\3rd_backward.vcxproj">
+      <Project>{32C903B1-ECF1-3F7D-8298-BB82888CA150}</Project>
+      <Name>3rd_backward</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\easyloggingpp\3rd_easyloggingpp.vcxproj">
+      <Project>{922C2CE9-699C-32C3-B07A-085C374AAEC6}</Project>
+      <Name>3rd_easyloggingpp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\glew\3rd_glew.vcxproj">
+      <Project>{D7F78400-F6C8-32C4-8531-92E370062C32}</Project>
+      <Name>3rd_glew</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\glfw\src\3rd_glfw.vcxproj">
+      <Project>{6495AEBB-363B-3164-82D3-0D6FC1F2AC22}</Project>
+      <Name>3rd_glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\glutess\3rd_glutess.vcxproj">
+      <Project>{9080BC45-C398-3B0A-B87D-40FEDF89E62F}</Project>
+      <Name>3rd_glutess</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\kdtree\3rd_kdtree.vcxproj">
+      <Project>{590CEC96-142D-3FF2-B67F-43FC5D144D9A}</Project>
+      <Name>3rd_kdtree</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\lastools\3rd_lastools.vcxproj">
+      <Project>{B203A592-DE12-3B27-A417-7EF179D738D8}</Project>
+      <Name>3rd_lastools</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\poisson\3rd_poisson.vcxproj">
+      <Project>{4B705ABC-3C22-36D2-9E68-D9CB8BE110D9}</Project>
+      <Name>3rd_poisson</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\ransac\3rd_ransac.vcxproj">
+      <Project>{74040708-0D56-3BA1-B0F5-D4874ABA7AA9}</Project>
+      <Name>3rd_ransac</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\rply\3rd_rply.vcxproj">
+      <Project>{1D6C1E15-796E-3A4F-9A56-06F7CA4DC296}</Project>
+      <Name>3rd_rply</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\tetgen\3rd_tetgen.vcxproj">
+      <Project>{6F2F36F8-36F7-3D51-99B7-F93E83E5AE8A}</Project>
+      <Name>3rd_tetgen</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\triangle\3rd_triangle.vcxproj">
+      <Project>{97A50E10-60EC-3102-9F67-2870381A109C}</Project>
+      <Name>3rd_triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\easy3d\algo\easy3d_algo.vcxproj">
+      <Project>{12AF9EC7-A6AD-3DA8-AAE1-D1D9C9AAA6DE}</Project>
+      <Name>easy3d_algo</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\easy3d\core\easy3d_core.vcxproj">
+      <Project>{740CE8A0-B307-3B94-A274-359006B49F2F}</Project>
+      <Name>easy3d_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\easy3d\fileio\easy3d_fileio.vcxproj">
+      <Project>{B1652914-0261-3CF3-850F-810849D6790A}</Project>
+      <Name>easy3d_fileio</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\easy3d\kdtree\easy3d_kdtree.vcxproj">
+      <Project>{B2D3EBA1-C169-3C8C-A8C3-F1DFB67D1ABC}</Project>
+      <Name>easy3d_kdtree</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\easy3d\renderer\easy3d_renderer.vcxproj">
+      <Project>{08AEC4CF-8520-3839-9823-151C4D90F833}</Project>
+      <Name>easy3d_renderer</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\easy3d\util\easy3d_util.vcxproj">
+      <Project>{0F754C2A-E026-3BF2-A196-94FCA225AD70}</Project>
+      <Name>easy3d_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\easy3d\viewer\easy3d_viewer.vcxproj">
+      <Project>{38057853-C7CC-34AD-A719-E6088497E021}</Project>
+      <Name>easy3d_viewer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/dev/CGAL-5.2.3/CGALConfig.cmake
+C:/dev/CGAL-5.2.3/CGALConfigVersion.cmake
+C:/dev/CGAL-5.2.3/cmake/modules/CGAL_Common.cmake
+C:/dev/CGAL-5.2.3/cmake/modules/CGAL_CreateSingleSourceCGALProgram.cmake
+C:/dev/CGAL-5.2.3/cmake/modules/CGAL_GeneratorSpecificSettings.cmake
+C:/dev/CGAL-5.2.3/cmake/modules/CGAL_Macros.cmake
+C:/dev/CGAL-5.2.3/cmake/modules/CGAL_TweakFindBoost.cmake
+C:/dev/CGAL-5.2.3/cmake/modules/CGAL_display_flags.cmake
+C:/dev/CGAL-5.2.3/cmake/modules/UseCGAL.cmake
+C:/dev/CGAL-5.2.3/lib/cmake/CGAL/CGALConfig.cmake
+C:/dev/CGAL-5.2.3/lib/cmake/CGAL/CGALConfigBuildVersion.cmake
+C:/dev/CGAL-5.2.3/lib/cmake/CGAL/CGALConfigVersion.cmake
+E:/workspace/reconstruction/Easy3D-main/cmake/UseCGAL.cmake
+E:/workspace/reconstruction/Easy3D-main/easy3d/algo_ext/CMakeLists.txt

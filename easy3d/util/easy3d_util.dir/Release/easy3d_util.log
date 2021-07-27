@@ -1,0 +1,20 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/easy3d/util/CMakeLists.txt
+  console_style.cpp
+  dialogs.cpp
+E:\workspace\reconstruction\Easy3D-main\3rd_party/portable_file_dialogs/portable_file_dialogs.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\workspace\reconstruction\Easy3D-main\3rd_party/portable_file_dialogs/portable_file_dialogs.h(1034): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  file_system.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\util\file_system.cpp(674): warning C4244: “参数”: 从“std::streamoff”转换到“const unsigned int”，可能丢失数据
+  logging.cpp
+  Stack trace not available for this compiler
+  progress.cpp
+  stack_tracer.cpp
+E:\workspace\reconstruction\Easy3D-main\3rd_party/backward/backward.hpp(341): warning C4005: “NOMINMAX”: 宏重定义
+  E:\workspace\reconstruction\Easy3D-main\easy3d\util\stack_tracer.cpp: note: 参见“NOMINMAX”的前一个定义
+E:\workspace\reconstruction\Easy3D-main\easy3d\util\stack_tracer.cpp(50): warning C4018: “<”: 有符号/无符号不匹配
+  stop_watch.cpp
+  Stack trace not available for this compiler
+  string.cpp
+  正在生成代码...
+  easy3d_util.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\lib\Release\easy3d_util.lib

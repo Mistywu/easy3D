@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\ambient_occlusion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\average_color_blending.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\clipping_plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\constraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\drawable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\drawable_lines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\drawable_points.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\drawable_triangles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\dual_depth_peeling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\eye_dome_lighting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\framebuffer_object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\frustum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\key_frame_interpolator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\manipulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\manipulated_camera_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\manipulated_frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\opengl_error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\opengl_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\opengl_timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shapes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\read_pixel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\setting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shader_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shader_program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shadow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\soft_shadow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\state.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\texture_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\text_renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\transform_decompose.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\vertex_array_object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\ambient_occlusion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\average_color_blending.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\clipping_plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\constraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\drawable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\drawable_lines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\drawable_points.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\drawable_triangles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\dual_depth_peeling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\eye_dome_lighting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\framebuffer_object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\frustum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\key_frame_interpolator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\manipulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\manipulated_camera_frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\manipulated_frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\opengl_error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\opengl_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\opengl_timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shapes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\read_pixel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\buffers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\setting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shader_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shader_program.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\shadow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\soft_shadow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\texture_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\text_renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\transform_decompose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\transparency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\vertex_array_object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\workspace\reconstruction\Easy3D-main\easy3d\renderer\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_plain_color.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_plain_color.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_plain_texture.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_plain_texture.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_spheres_geometry_color.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_spheres_geometry_color.geom" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_spheres_geometry_color.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_spheres_geometry_texture.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_spheres_geometry_texture.geom" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_spheres_geometry_texture.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_spheres_sprite_color.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_spheres_sprite_color.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_surfel_color.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_surfel_color.geom" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_surfel_color.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_surfel_texture.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_surfel_texture.geom" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\points\points_surfel_texture.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_plain_color.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_plain_color.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_plain_texture.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_plain_texture.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_plain_color_width_control.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_plain_color_width_control.geom" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_plain_color_width_control.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_plain_texture_width_control.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_plain_texture_width_control.geom" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_plain_texture_width_control.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_cylinders_color.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_cylinders_color.geom" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_cylinders_color.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_cylinders_texture.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_cylinders_texture.geom" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_cylinders_texture.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_cones_color.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_cones_color.geom" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_cones_color.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_cones_texture.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_cones_texture.geom" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\lines\lines_cones_texture.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\surface\surface.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\surface\surface.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\edl\edl_bilateral_filter.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\edl\edl_bilateral_filter.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\edl\edl_compose.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\edl\edl_compose.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\edl\edl_shade.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\edl\edl_shade.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\screen_space\screen_space_color.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\screen_space\screen_space_color.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\screen_space\screen_space_texture.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\screen_space\screen_space_texture.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\screen_space\screen_space_depth_texture.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\screen_space\screen_space_depth_texture.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\shadow\shadow_generate.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\shadow\shadow_generate.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\shadow\shadow_rendering.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\shadow\shadow_rendering.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\shadow\soft_shadow_generate.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\shadow\soft_shadow_generate.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\shadow\soft_shadow_rendering.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\shadow\soft_shadow_rendering.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\ssao\blur.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\ssao\blur.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\ssao\geometry_pass.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\ssao\geometry_pass.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\ssao\ssao.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\ssao\ssao.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\transparency\average_color_blend.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\transparency\average_color_blend.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\transparency\average_color_init.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\transparency\average_color_init.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\transparency\dual_depth_peeling_blend.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\transparency\dual_depth_peeling_blend.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\transparency\dual_depth_peeling_final.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\transparency\dual_depth_peeling_final.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\transparency\dual_depth_peeling_init.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\transparency\dual_depth_peeling_init.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\transparency\dual_depth_peeling_peel_rendering.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\transparency\dual_depth_peeling_peel_rendering.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\selection\selection_single_primitive.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\selection\selection_single_primitive.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\selection\selection_pointcloud_rect.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\selection\selection_pointcloud_rect.frag" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\selection\selection_pointcloud_lasso.vert" />
+    <None Include="E:\workspace\reconstruction\Easy3D-main\resources\shaders\selection\selection_pointcloud_lasso.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3A600367-FE1B-315F-8EBC-353052051363}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3E83A2FA-8FB0-3AB0-830A-E75B3DB82788}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

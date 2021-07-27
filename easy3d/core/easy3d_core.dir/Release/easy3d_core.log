@@ -1,0 +1,17 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/easy3d/core/CMakeLists.txt
+  graph.cpp
+  Stack trace not available for this compiler
+  surface_mesh_builder.cpp
+  Stack trace not available for this compiler
+  model.cpp
+  Stack trace not available for this compiler
+  point_cloud.cpp
+  Stack trace not available for this compiler
+  surface_mesh.cpp
+  Stack trace not available for this compiler
+  poly_mesh.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d\core\poly_mesh.cpp(454): warning C4018: “<”: 有符号/无符号不匹配
+  version.cpp
+  正在生成代码...
+  easy3d_core.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\lib\Release\easy3d_core.lib

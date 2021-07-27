@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B1652914-0261-3CF3-850F-810849D6790A}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>easy3d_fileio</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\workspace\reconstruction\Easy3D-main\build\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">easy3d_fileio.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">easy3d_fileio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\workspace\reconstruction\Easy3D-main\build\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">easy3d_fileio.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">easy3d_fileio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\workspace\reconstruction\Easy3D-main\build\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">easy3d_fileio.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">easy3d_fileio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\workspace\reconstruction\Easy3D-main\build\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">easy3d_fileio.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">easy3d_fileio</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASzip\src;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASlib\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;EASY3D_RESOURCES_DIR="E:/workspace/reconstruction/Easy3D-main/resources";_CRT_SECURE_NO_DEPRECATE;ENV_32_BIT;BACKWARD_HAS_UNWIND=1;BACKWARD_HAS_LIBUNWIND=0;BACKWARD_HAS_BACKTRACE=0;BACKWARD_HAS_BACKTRACE_SYMBOL=1;BACKWARD_HAS_DW=0;BACKWARD_HAS_BFD=0;BACKWARD_HAS_DWARF=0;ELPP_FEATURE_ALL;ELPP_STL_LOGGING;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;ELPP_DISABLE_DEFAULT_CRASH_HANDLING;NOMINMAX;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;EASY3D_RESOURCES_DIR=\"E:/workspace/reconstruction/Easy3D-main/resources\";_CRT_SECURE_NO_DEPRECATE;ENV_32_BIT;BACKWARD_HAS_UNWIND=1;BACKWARD_HAS_LIBUNWIND=0;BACKWARD_HAS_BACKTRACE=0;BACKWARD_HAS_BACKTRACE_SYMBOL=1;BACKWARD_HAS_DW=0;BACKWARD_HAS_BFD=0;BACKWARD_HAS_DWARF=0;ELPP_FEATURE_ALL;ELPP_STL_LOGGING;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;ELPP_DISABLE_DEFAULT_CRASH_HANDLING;NOMINMAX;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASzip\src;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASlib\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASzip\src;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASlib\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASzip\src;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASlib\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EASY3D_RESOURCES_DIR="E:/workspace/reconstruction/Easy3D-main/resources";_CRT_SECURE_NO_DEPRECATE;ENV_32_BIT;BACKWARD_HAS_UNWIND=1;BACKWARD_HAS_LIBUNWIND=0;BACKWARD_HAS_BACKTRACE=0;BACKWARD_HAS_BACKTRACE_SYMBOL=1;BACKWARD_HAS_DW=0;BACKWARD_HAS_BFD=0;BACKWARD_HAS_DWARF=0;ELPP_FEATURE_ALL;ELPP_STL_LOGGING;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;ELPP_DISABLE_DEFAULT_CRASH_HANDLING;NOMINMAX;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EASY3D_RESOURCES_DIR=\"E:/workspace/reconstruction/Easy3D-main/resources\";_CRT_SECURE_NO_DEPRECATE;ENV_32_BIT;BACKWARD_HAS_UNWIND=1;BACKWARD_HAS_LIBUNWIND=0;BACKWARD_HAS_BACKTRACE=0;BACKWARD_HAS_BACKTRACE_SYMBOL=1;BACKWARD_HAS_DW=0;BACKWARD_HAS_BFD=0;BACKWARD_HAS_DWARF=0;ELPP_FEATURE_ALL;ELPP_STL_LOGGING;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;ELPP_DISABLE_DEFAULT_CRASH_HANDLING;NOMINMAX;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASzip\src;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASlib\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASzip\src;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASlib\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASzip\src;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASlib\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EASY3D_RESOURCES_DIR="E:/workspace/reconstruction/Easy3D-main/resources";_CRT_SECURE_NO_DEPRECATE;ENV_32_BIT;BACKWARD_HAS_UNWIND=1;BACKWARD_HAS_LIBUNWIND=0;BACKWARD_HAS_BACKTRACE=0;BACKWARD_HAS_BACKTRACE_SYMBOL=1;BACKWARD_HAS_DW=0;BACKWARD_HAS_BFD=0;BACKWARD_HAS_DWARF=0;ELPP_FEATURE_ALL;ELPP_STL_LOGGING;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;ELPP_DISABLE_DEFAULT_CRASH_HANDLING;NOMINMAX;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EASY3D_RESOURCES_DIR=\"E:/workspace/reconstruction/Easy3D-main/resources\";_CRT_SECURE_NO_DEPRECATE;ENV_32_BIT;BACKWARD_HAS_UNWIND=1;BACKWARD_HAS_LIBUNWIND=0;BACKWARD_HAS_BACKTRACE=0;BACKWARD_HAS_BACKTRACE_SYMBOL=1;BACKWARD_HAS_DW=0;BACKWARD_HAS_BFD=0;BACKWARD_HAS_DWARF=0;ELPP_FEATURE_ALL;ELPP_STL_LOGGING;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;ELPP_DISABLE_DEFAULT_CRASH_HANDLING;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASzip\src;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASlib\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASzip\src;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASlib\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASzip\src;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASlib\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EASY3D_RESOURCES_DIR="E:/workspace/reconstruction/Easy3D-main/resources";_CRT_SECURE_NO_DEPRECATE;ENV_32_BIT;BACKWARD_HAS_UNWIND=1;BACKWARD_HAS_LIBUNWIND=0;BACKWARD_HAS_BACKTRACE=0;BACKWARD_HAS_BACKTRACE_SYMBOL=1;BACKWARD_HAS_DW=0;BACKWARD_HAS_BFD=0;BACKWARD_HAS_DWARF=0;ELPP_FEATURE_ALL;ELPP_STL_LOGGING;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;ELPP_DISABLE_DEFAULT_CRASH_HANDLING;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;EASY3D_RESOURCES_DIR=\"E:/workspace/reconstruction/Easy3D-main/resources\";_CRT_SECURE_NO_DEPRECATE;ENV_32_BIT;BACKWARD_HAS_UNWIND=1;BACKWARD_HAS_LIBUNWIND=0;BACKWARD_HAS_BACKTRACE=0;BACKWARD_HAS_BACKTRACE_SYMBOL=1;BACKWARD_HAS_DW=0;BACKWARD_HAS_BFD=0;BACKWARD_HAS_DWARF=0;ELPP_FEATURE_ALL;ELPP_STL_LOGGING;ELPP_THREAD_SAFE;ELPP_NO_DEFAULT_LOG_FILE;ELPP_DISABLE_DEFAULT_CRASH_HANDLING;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASzip\src;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASlib\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\workspace\reconstruction\Easy3D-main;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASzip\src;E:\workspace\reconstruction\Easy3D-main\3rd_party\lastools\LASlib\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/workspace/reconstruction/Easy3D-main/easy3d/fileio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/reconstruction/Easy3D-main -BE:/workspace/reconstruction/Easy3D-main/build --check-stamp-file E:/workspace/reconstruction/Easy3D-main/build/easy3d/fileio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\workspace\reconstruction\Easy3D-main\build\easy3d\fileio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/workspace/reconstruction/Easy3D-main/easy3d/fileio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/reconstruction/Easy3D-main -BE:/workspace/reconstruction/Easy3D-main/build --check-stamp-file E:/workspace/reconstruction/Easy3D-main/build/easy3d/fileio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\workspace\reconstruction\Easy3D-main\build\easy3d\fileio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/workspace/reconstruction/Easy3D-main/easy3d/fileio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/reconstruction/Easy3D-main -BE:/workspace/reconstruction/Easy3D-main/build --check-stamp-file E:/workspace/reconstruction/Easy3D-main/build/easy3d/fileio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\workspace\reconstruction\Easy3D-main\build\easy3d\fileio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/workspace/reconstruction/Easy3D-main/easy3d/fileio/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/reconstruction/Easy3D-main -BE:/workspace/reconstruction/Easy3D-main/build --check-stamp-file E:/workspace/reconstruction/Easy3D-main/build/easy3d/fileio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\workspace\reconstruction\Easy3D-main\build\easy3d\fileio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\image_io.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\graph_io.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\graph_io_ply.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\ply_reader_writer.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\point_cloud_io.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\point_cloud_io_bin.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\point_cloud_io_las.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\point_cloud_io_ply.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\point_cloud_io_ptx.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\point_cloud_io_vg.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\point_cloud_io_xyz.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\surface_mesh_io.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\surface_mesh_io_obj.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\surface_mesh_io_off.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\surface_mesh_io_ply.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\surface_mesh_io_sm.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\surface_mesh_io_stl.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\poly_mesh_io.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\poly_mesh_io_mesh.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\poly_mesh_io_plm.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\poly_mesh_io_pm.cpp" />
+    <ClCompile Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\resources.cpp" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\image_io.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\graph_io.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\ply_reader_writer.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\point_cloud_io.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\point_cloud_io_ptx.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\point_cloud_io_vg.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\surface_mesh_io.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\poly_mesh_io.h" />
+    <ClInclude Include="E:\workspace\reconstruction\Easy3D-main\easy3d\fileio\resources.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\ZERO_CHECK.vcxproj">
+      <Project>{14EEAA4B-B71A-3483-B243-FA07BA8DB49A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\backward\3rd_backward.vcxproj">
+      <Project>{32C903B1-ECF1-3F7D-8298-BB82888CA150}</Project>
+      <Name>3rd_backward</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\easyloggingpp\3rd_easyloggingpp.vcxproj">
+      <Project>{922C2CE9-699C-32C3-B07A-085C374AAEC6}</Project>
+      <Name>3rd_easyloggingpp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\lastools\3rd_lastools.vcxproj">
+      <Project>{B203A592-DE12-3B27-A417-7EF179D738D8}</Project>
+      <Name>3rd_lastools</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\3rd_party\rply\3rd_rply.vcxproj">
+      <Project>{1D6C1E15-796E-3A4F-9A56-06F7CA4DC296}</Project>
+      <Name>3rd_rply</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\easy3d\core\easy3d_core.vcxproj">
+      <Project>{740CE8A0-B307-3B94-A274-359006B49F2F}</Project>
+      <Name>easy3d_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\workspace\reconstruction\Easy3D-main\build\easy3d\util\easy3d_util.vcxproj">
+      <Project>{0F754C2A-E026-3BF2-A196-94FCA225AD70}</Project>
+      <Name>easy3d_util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

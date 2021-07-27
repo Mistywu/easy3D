@@ -1,0 +1,10 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/tutorials/Tutorial_307_Tessellator/CMakeLists.txt
+  main.cpp
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\easy3d/algo/tessellator.h(101): warning C4018: “<”: 有符号/无符号不匹配
+  E:\workspace\reconstruction\Easy3D-main\easy3d/algo/tessellator.h(64): note: 参见对正在编译的函数 模板 实例化“void easy3d::Tessellator::Vertex::append<easy3d::vec3>(const Vec &)”的引用
+          with
+          [
+              Vec=easy3d::vec3
+          ]
+  Tutorial_307_Tessellator.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\bin\Release\Tutorial_307_Tessellator.exe

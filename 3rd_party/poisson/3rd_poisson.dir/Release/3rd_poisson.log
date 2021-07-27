@@ -1,0 +1,8 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/3rd_party/poisson/CMakeLists.txt
+  CmdLineParser.cpp
+  Factor.cpp
+  Geometry.cpp
+  MarchingCubes.cpp
+  [WARNING] Not clear if MarchingSquares::edgeMask and MarchingSquares::edges are set correctly
+  正在生成代码...
+  3rd_poisson.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\lib\Release\3rd_poisson.lib

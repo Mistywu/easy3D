@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/workspace/reconstruction/Easy3D-main/3rd_party/easyloggingpp/CMakeLists.txt
+  easylogging++.cc
+  Stack trace not available for this compiler
+E:\workspace\reconstruction\Easy3D-main\3rd_party\easyloggingpp\src\easylogging++.cc(2657): warning C4101: “ex”: 未引用的局部变量
+  3rd_easyloggingpp.vcxproj -> E:\workspace\reconstruction\Easy3D-main\build\lib\Release\3rd_easyloggingpp.lib
